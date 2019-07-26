@@ -1,0 +1,1477 @@
+category,"event_code","event_description",severity
+as2proxy,0x04230001,"Unknown error",error
+as2proxy,0x04230002,"Cannot process request headers.",error
+as2proxy,0x04230003,"AS2 message processing failed: decryption failure.",error
+as2proxy,0x04230004,"AS2 message processing failed: decompression or decryption failure.",error
+as2proxy,0x04230005,"AS2 message processing failed: cannot fetch exchange profile.",error
+as2proxy,0x04230006,"AS2 message processing failed: invalid exchange profile.",error
+as2proxy,0x04230007,"AS2 message processing failed: cannot load decryption materials.",error
+as2proxy,0x04230008,"AS2 message processing failed: cannot load signature verification materials.",error
+as2proxy,0x04230009,"AS2 message processing failed: signature verification failure.",error
+as2proxy,0x0423000a,"AS2 message rejected because of security policy: message does not meet exchange requirement.",error
+as2proxy,0x0423000b,"Error when parsing MIME payload.",error
+as2proxy,0x0423000c,"AS2 message processing failed: Invalid content for AS2 'Original-Message-ID' header for MDN.",error
+as2proxy,0x0423000d,"Invalid visibility event endpoint URL.",error
+as2proxy,0x0423000e,"Failed to establish connection to the MEIG visibility event endpoint.",error
+as2proxy,0x0423000f,"An error occurred on the front side connection.",error
+as2proxy,0x04230010,"A hangup error occurred on the front side connection.",error
+audit,0x02c60001,"Configuration settings applied",info
+audit,0x02c60002,"Configuration added",info
+audit,0x02c60003,"Configuration deleted",info
+audit,0x02c60004,"Password changed",info
+audit,0x02c30005,"Maximum number of failed logins.",error
+audit,0x02c60006,"admin-state disabled.",info
+audit,0x02c60007,"admin-state enabled.",info
+audit,0x02c30008,"Lock out due to number of failed logins",error
+b2bgw,0x03130001,"Invalid Business ID",error
+b2bgw,0x03130002,"Retransmit Exhausted",error
+b2bgw,0x03130003,"Fail to Retrieve Retransmit Message",error
+b2bgw,0x03160004,"Corresponding MDN Has Been Received",info
+b2bgw,0x03130005,"Error Occurred During Retransmit Message",error
+b2bgw,0x03130006,"Missing mandatory AS headers",error
+b2bgw,0x03130007,"Parsing AS header error",error
+b2bgw,0x03140008,"No decryption key.",warning
+b2bgw,0x03140009,"Unsupported AS Version",warning
+b2bgw,0x0313000a,"Unsupported Signing Protocol",error
+b2bgw,0x0313000b,"Unsupported MIC Algorithm",error
+b2bgw,0x0313000c,"Unexpected MDN response",error
+b2bgw,0x0314000d,"Database operation failed",warning
+b2bgw,0x0313000e,"Unsupported document type",error
+b2bgw,0x0313000f,"Reject duplicate message",error
+b2bgw,0x03130010,"MDN URL Setting Error",error
+b2bgw,0x03130011,"MDN Generation Error",error
+b2bgw,0x03140012,"Bad Content Type",warning
+b2bgw,0x03140013,"Required encrypted data not encrypted.",warning
+b2bgw,0x03130014,"Archive directory or file name is missing",error
+b2bgw,0x03120015,"Insufficient disk space on RAID volume",critical
+b2bgw,0x03120018,"B2B persistence store down",critical
+b2bgw,0x03160019,"Waiting Inbound Asynchronous MDN response",info
+b2bgw,0x0316001a,"Waiting Outbound Asynchronous MDN",info
+b2bgw,0x0313001b,"No MDN received for outbound transaction",error
+b2bgw,0x0313001c,"Failed to deliver MDN for inbound transaction",error
+b2bgw,0x0313001d,"No reference to original B2B Gateway",error
+b2bgw,0x0313001e,"no credentials to sign MDN",error
+b2bgw,0x0313001f,"No B2B transaction ID",error
+b2bgw,0x03130020,"Cannot reduce B2B persistence storage size",error
+b2bgw,0x03130021,"No internal partner profile is associated with this gateway",error
+b2bgw,0x03130022,"No external partner profile is associated with this gateway",error
+b2bgw,0x03130023,"Duplicate business identifiers are in one or more partner profiles",error
+b2bgw,0x03130024,"MDN Processing Error",error
+b2bgw,0x03120025,"Insufficient persistent store space on RAID volume",critical
+b2bgw,0x03140026,"Required signed data not signed.",warning
+b2bgw,0x03130027,"External partner has no AS2 async MDN URL",error
+b2bgw,0x03130028,"External partner has no AS3 async MDN URL",error
+b2bgw,0x03130029,"Document storage location cannot be local:///",error
+b2bgw,0x0313002a,"Backside connection resulted in a protocol failure",error
+b2bgw,0x0316002b,"Could not find retransmission info",info
+b2bgw,0x0313002c,"Duplicate email addresses are in one or more partner profiles",error
+b2bgw,0x0313002d,"Default SMTP connection object is not available",error
+b2bgw,0x0313002e,"No email address configured for sending partner",error
+b2bgw,0x0313002f,"No email address configured for receiving partner",error
+b2bgw,0x03130030,"External partner has no AS1 MDN URL",error
+b2bgw,0x03130031,"SMTP server connection object is not up",error
+b2bgw,0x03130032,"Destination missing required url",error
+b2bgw,0x03130033,"Setting for replying async Acknowledgment not found",error
+b2bgw,0x03130034,"Failed to send async Acknowledgment to external partner",error
+b2bgw,0x03130035,"Settings for replying async Error not found",error
+b2bgw,0x03130036,"Failed to send async Error message to external partner",error
+b2bgw,0x03160037,"Waiting Outbound Asynchronous Acknowledgment",info
+b2bgw,0x03160038,"Waiting Inbound Asynchronous HTTP response",info
+b2bgw,0x03130039,"Received Unexpected Synchronous Response",error
+b2bgw,0x0313003a,"Response Processing Error",error
+b2bgw,0x0313003b,"Received response with unexpected RefToMessageId",error
+b2bgw,0x0313003c,"No ACK received for ebMS outbound transaction",error
+b2bgw,0x0313003d,"TimeToLive element invalid for inbound transaction",error
+b2bgw,0x0313003e,"Error occurred when parsing ebMS Pong message",error
+b2bgw,0x0313003f,"Error occurred when paring ebMS Status Response message",error
+b2bgw,0x03130040,"Unauthorized inbound message",error
+b2bgw,0x03140041,"Ignored Ack or Error Message with the same RefToMessageId value",warning
+b2bgw,0x03130042,"Rejected unexpected Ack or Error Message",error
+b2bgw,0x03130043,"Error found for the ebMS2 ping message",error
+b2bgw,0x03130044,"Error found for the ebMS2 status request",error
+b2bgw,0x03130045,"Duplicate Message Inconsistent with Original",error
+b2bgw,0x03130046,"Security error for inbound transaction",error
+b2bgw,0x03130047,"Mime problem for inbound transaction",error
+b2bgw,0x03130048,"Can not deliver async Ack without AckURL",error
+b2bgw,0x03130049,"Can not deliver async Error Message without ErrorURL",error
+b2bgw,0x0313004a,"The incoming ebMS message is not supported",error
+b2bgw,0x0313004b,"Invalid destination",error
+b2bgw,0x0313004c,"ebXML element/attribute is not recognizable",error
+b2bgw,0x0313004d,"Unknown ebXML document type",error
+b2bgw,0x0313004e,"Not a valid ebXML message",error
+b2bgw,0x0313004f,"Other Host in HA Cluster not defined",error
+b2bgw,0x03130050,"ACK Processing Failure",error
+b2bgw,0x03130051,"Error Occurred During Packaging Retransmit Message",error
+b2bgw,0x03130052,"The specified virtual IP address was invalid",error
+b2bgw,0x03130053,"The specified standby control group does not exist",error
+b2bgw,0x03130054,"The specified standby control group did not enable preemption",error
+b2bgw,0x03120055,"Too many files on RAID volume",critical
+b2bgw,0x03120056,"Transaction cannot be recovered",critical
+b2bgw,0x03160057,"Waiting Outbound Response",info
+b2bgw,0x03130058,"Fault response returned by outbound receiver",error
+b2bgw,0x03130059,"Required SSH Client Connection object is not provided or is not operational",error
+b2bgw,0x0313005a,"Archive monitor associated with B2B gateway is down",error
+b2bgw,0x0313005b,"SSH Client Connection not configured for SFTP",error
+b2bgw,0x0313005c,"No Business ID is specified",error
+b2bgw,0x0313005d,"Invalid frontside URL due to unsupported URL parameter or command",error
+b2bgw,0x0313005e,"Incorrect CPA partner specified",error
+b2bgw,0x0313005f,"Cannot identify CPA Business Collaboration Service",error
+b2bgw,0x03130060,"Cannot identify CPA MSH Signal Service",error
+b2bgw,0x03130061,"Cannot identify receiving Action binding",error
+b2bgw,0x03130062,"Inconsistent with CPA setting",error
+b2bgw,0x03130063,"Cannot reply with no MSH Signal Service",error
+b2bgw,0x03130064,"Missing Service",error
+b2bgw,0x03130065,"Missing Role(s)",error
+b2bgw,0x03130066,"Missing Default Sender/Receiver Action",error
+b2bgw,0x03130067,"Action is required",error
+b2bgw,0x03130068,"Cannot identify sending Action binding",error
+b2bgw,0x03130069,"Failed to sign Acknowledgment",error
+b2bgw,0x0313006a,"Processing failure: Failed to package outbound ebMS request",error
+b2bgw,0x0313006b,"Missing required CPAId, Service, or Action",error
+b2bgw,0x0313006c,"Query result from database is invalid",error
+b2bgw,0x0313006d,"Processing failure: Failed to package Acknowledgment",error
+b2bgw,0x0313006e,"An error ocurred when parsing EDI document",error
+b2bgw,0x0313006f,"Query Error: Error during pre-process. Abort Query.",error
+b2bgw,0x03130070,"Query Error: Abort Query.",error
+b2bgw,0x03140071,"Query Warn: exception detected. Query proceeded.",warning
+b2bgw,0x03160072,"Query Info: Query proceeded. Please see information in event logs",info
+b2bgw,0x03130073,"Failed to archive persisted transactions",error
+b2bgw,0x03130074,"Invalid Archive Directory URL specified",error
+b2bgw,0x03130075,"Document Storage directory not accessible",error
+b2bgw,0x03130076,"HA configuration template file missing.",error
+b2bgw,0x03130077,"Failed to generate HA configuration file.",error
+b2bgw,0x03130078,"The IPv6 address is not supported for high availability configuration.",error
+b2bgw,0x03130079,"The HA configuration is invalid.",error
+b2bgw,0x0316007a,"Reprocessed Success",info
+b2bgw,0x0313007b,"The specificed digest algorithm is not supported.",error
+b2bgw,0x0313007c,"B2B document storage is not ready to be used.",error
+b2bgw,0x0313007d,"Routing preprocessor file type mismatch.",error
+b2bgw,0x0313007e,"One or more CPA senders are not internal partner profiles.",error
+clock,0x01530001,"Time zone config mismatch.",error
+"cloud_connector",0x04430001,"The direction of the Cloud Connector SSL Proxy Profile is Reverse.",error
+"cloud_gateway",0x04330001,"The direction of the Cloud Gateway SSL Proxy Profile is not Reverse.",error
+"cloud_gateway",0x04330002,"The direction of an enterprise application SSL Proxy Profile is not Forward.",error
+"cluster_service",0x03730001,"Exceeded service count maximum.",error
+"cluster_service",0x03730002,"System Identifier not set.",error
+"cluster_service",0x03730003,"System Identifier not found.",error
+"cluster_service",0x03730004,"Failed to create configuration file.",error
+"cluster_service",0x03730005,"Configuration modification not allowed.",error
+"cluster_service",0x03730006,"Failed to bring the cluster service online.",error
+"cluster_service",0x03730007,"Failed to bring the cluster service offline.",error
+"cluster_service",0x03730008,"Failed to open heartbeat directory.",error
+"cluster_service",0x03730009,"Heartbeat still active.",error
+"cluster_service",0x0373000a,"Failed to stop heartbeat.",error
+"cluster_service",0x0373000b,"Cannot find cluster.",error
+cms,0x03030001,"Failed allocating memory.",error
+cms,0x03040002,"Signature verification failed.",warning
+cms,0x03040003,"Bad digest algorithm.",warning
+cms,0x03040004,"Invalid cms data.",warning
+cms,0x03040005,"Digest update failed.",warning
+cms,0x03040006,"Could not process cms data.",warning
+cms,0x03040007,"Unable to decrypt data.",warning
+cms,0x03040009,"Unable to uncompress data.",warning
+cms,0x0304000c,"Bad encryption cipher.",warning
+cms,0x0304000d,"Unable to encrypt data.",warning
+cms,0x0304000e,"Unable to encrypt data.",warning
+cms,0x0304000f,"Unable to sign data.",warning
+cms,0x03040010,"No signing key.",warning
+cms,0x03040011,"Bad signing digest.",warning
+cms,0x03040013,"Could not update headers for outbound data.",warning
+cms,0x03030014,"Attempt to send outbound message with no data.",error
+crypto,0x01b10001,"Crypto accelerator not supported by this firmware",alert
+crypto,0x01b20002,"HSM is uninitialized",critical
+crypto,0x01b20003,"HSM PED login timed out",critical
+crypto,0x01b20004,"HSM PED login failed",critical
+crypto,0x01b10005,"Microcode file not found",alert
+crypto,0x01b10006,"Microcode load failed",alert
+crypto,0x01b10007,"HSM credentials not found",alert
+crypto,0x01b20008,"HSM password login failed",critical
+crypto,0x01b10009,"uncertified HSM firmware detected",alert
+crypto,0x01b1000a,"Runtime error detected",alert
+crypto,0x01b6000b,deprecated,info
+crypto,0x01b6000c,"Certificate is about to expire",info
+crypto,0x01b1000d,"HSM driver reload failed",alert
+crypto,0x01b3000e,"Could not create AAA Authentication LTPA key material",error
+crypto,0x01b3000f,"Could not create AAA Post Processing LTPA key material",error
+crypto,0x01b30010,"Could not parse WebSEAL DynURL Mapping file",error
+crypto,0x01b50011,"HSM needs power cycle",notice
+crypto,0x01b30012,"Kerberos object opstate down due to crypto mode",error
+crypto,0x01b30013,"Referenced external AAA template contains dynamic configuration.",error
+dochandler,0x00130002,"Failed to read data",error
+dochandler,0x00130003,"Failed to connect",error
+encodings,0x01230002,"Out of Memory",error
+encodings,0x01230003,"Invalid UTF-8 Character",error
+encodings,0x01230004,"Invalid UTF-16 Character",error
+encodings,0x01230005,"Invalid EBCDIC Character",error
+encodings,0x01230006,"Attempted to encode a character which cannot be represented in Latin-1",error
+encodings,0x01230007,"Attempted to encode a character which cannot be represented in Latin-2",error
+encodings,0x01230008,"Attempted to encode a character which cannot be represented in EBCDIC",error
+encodings,0x01230009,"Unknown encoding name",error
+encodings,0x0123000a,"Invalid input text encoding",error
+encodings,0x0123000b,"Invalid character for output text encoding",error
+environmental,0x02220001,"Power supply failure.",critical
+environmental,0x02240002,"Internal cooling fan has slowed",warning
+environmental,0x02220003,"Internal cooling fan has stopped.",critical
+environmental,0x02220004,"System battery missing.",critical
+environmental,0x02220005,"System battery failed.",critical
+environmental,0x02220006,"Power supply AC is not connected",critical
+errorreport,0x04130001,"Error report creation failed.",error
+evtlog,0x03a30001,"During event processing, an error occurred.",error
+evtlog,0x03a30002,"A connection failure occurred.",error
+evtlog,0x03a30003,"The initial server connection could not be started.",error
+evtlog,0x03a30004,"A data connection to the server could not be established.",error
+evtlog,0x03a30005,"A DNS lookup failed.",error
+evtlog,0x03a30006,"Invalid local address was specified.",error
+"fibre_channel",0x03530001,"Failed to load HBA.",error
+"fibre_channel",0x03530002,"Failed to get HBA attributes.",error
+"fibre_channel",0x03530003,"Unexpected number of HBA ports.",error
+"fibre_channel",0x03530004,"Failed to get HBA port attributes.",error
+"fibre_channel",0x03530005,"HBA port not online.",error
+"fibre_channel",0x03530006,"Failed to load referenced HBA.",error
+"fibre_channel",0x03530007,"WWPN already exists.",error
+"fibre_channel",0x03530008,"Failed to get remote port attributes.",error
+"fibre_channel",0x03530009,"Target port not online.",error
+"fibre_channel",0x0353000a,"Target volume not accessible",error
+"fibre_channel",0x0353000b,"Failed to find LUN",error
+"fibre_channel",0x0353000c,"LUN already exists",error
+"fibre_channel",0x0353000d,"Failed to register for HBA port events.",error
+"fibre_channel",0x0353000e,"Failed to register for Target port events.",error
+"fibre_channel",0x0353000f,"Directory already exists",error
+"fibre_channel",0x03530010,"Failed to find target",error
+"fibre_channel",0x03530011,"Failed to register for Volume path events.",error
+"fibre_channel",0x03530012,"Volume not online.",error
+"fibre_channel",0x03530013,"HBA not configured.",error
+"fibre_channel",0x03530014,"Target not configured.",error
+"fibre_channel",0x03530015,"HBA not configured.",error
+"fibre_channel",0x03530016,"Invalid HBA configuration.",error
+"fibre_channel",0x03530017,"Target not multipathed.",error
+"fibre_channel",0x03530018,"Target not specified.",error
+"fibre_channel",0x03530019,"Host Bus Adapter not specified.",error
+filepoller,0x02730001,"Incorrect poll directory provided.",error
+filepoller,0x02730002,"No file match pattern was provided.",error
+filepoller,0x02730003,"Memory could not be allocated for current transaction.",error
+filepoller,0x02730004,"Poll sequence allocation error.",error
+filepoller,0x02730005,"File rename failed.",error
+filepoller,0x02730006,"File open failed.",error
+filepoller,0x02730007,"File delete failed.",error
+filepoller,0x02730008,"Poll transaction initiation failed.",error
+filepoller,0x02760009,"Poll sequence did not find any files.",info
+filepoller,0x0273000a,"Poll sequence returned an incorrect file listing.",error
+filepoller,0x0276000b,"Poll sequence did not find a matching file.",info
+filepoller,0x0273000c,"File close failed.",error
+filepoller,0x0273000d,"Result file name pattern was not provided.",error
+filepoller,0x0273000e,"SSH Client Connection not configured for SFTP",error
+ftpserver,0x02630001,"Directory missing leading slash",error
+ftpserver,0x02630002,"Directory has trailing slash",error
+ftpserver,0x02630003,"Directory not nested",error
+ftpserver,0x02630004,"Directory too long",error
+ftpserver,0x02630005,"Duplicate Directory",error
+ftpserver,0x02630006,"Directory component . (dot)",error
+ftpserver,0x02630007,"Directory component .. (dot-dot)",error
+ftpserver,0x02630008,"Response directory not a configured virtual directory",error
+ftpserver,0x02630009,"NFS mount missing",error
+ftpserver,0x0263000a,"Response URL missing",error
+ftpserver,0x0263000b,"Unique Filename Prefix too long",error
+ftpserver,0x0263000c,"Response Suffix too long",error
+ftpserver,0x0263000d,"Default Directory too long",error
+ftpserver,0x0263000e,"Default Directory non-existent",error
+ftpserver,0x0266000f,"FTP Control Connection Closed",info
+ftpserver,0x02630010,"Close of NFS storage for FTP Server result file failed",error
+ftpserver,0x02630011,"Open of remote response file failed",error
+ftpserver,0x02630012,"SSL Proxy configuration missing or invalid.",error
+ftpserver,0x02630013,"Persistent VFS required.",error
+ftpserver,0x02630014,"Incorrect port range specified.",error
+ftpserver,0x02630015,"Alternate passive IP address was not specified.",error
+ftpserver,0x02630016,"SSL/TLS certificate mismatch between control and data connections",error
+"generic_command",0x04630001,"Invalid option",error
+"generic_command",0x04630002,"Invalid option value",error
+"generic_command",0x04630003,"Missing option value",error
+"generic_command",0x04630004,"Internal error",error
+httpconvert,0x02130001,"Invalid url-encoded data.",error
+httpconvert,0x02130002,"Bad MIME format.",error
+httpconvert,0x02130003,"MIME parser error.",error
+httpconvert,0x02130004,"Bad name for form variable.",error
+httpconvert,0x02130005,"post of multipart/form-data without boundary.",error
+httpconvert,0x02130006,"post of multipart/form-data long boundary.",error
+httpconvert,0x02130007,"name too long.",error
+httpconvert,0x02130008,"Invalid JSON format",error
+httpconvert,0x02130009,"Invalid JSON property name",error
+httpconvert,0x0213000a,"Invalid JSON property value",error
+httpconvert,0x0213000b,"JSON type length exceeded",error
+httpconvert,0x0213000c,"JSON data structure depth exceeded",error
+httpconvert,0x0213000d,"Invalid array syntax",error
+httpconvert,0x0213000e,"Invalid object syntax",error
+httpconvert,0x0213000f,"Invalid string syntax",error
+httpconvert,0x02130010,"Invalid number syntax",error
+httpconvert,0x02130011,"Invalid null syntax",error
+httpconvert,0x02130012,"Invalid boolean syntax",error
+httpconvert,0x02130013,"Invalid JSON encoding",error
+httpconvert,0x02130014,"JSON body exceeded maximum document size",error
+httpconvert,0x02120015,"Memory allocation failed",critical
+httpconvert,0x02120016,"Invalid JSON syntax",critical
+httpconvert,0x02130017,"URL contains invalid characters.",error
+identity,0x00530001,"Network error",error
+identity,0x00530002,"Read error",error
+identity,0x00530003,"Write error",error
+ilmtagent,0x03e30001,"Cannot find the ILMT agent.",error
+ilmtagent,0x03e30003,"Cannot start the ILMT agent.",error
+ilmtagent,0x03e30004,"Cannot stop the ILMT agent.",error
+ilmtagent,0x03e3000c,"Error reading masthead.",error
+ilmtagent,0x03e3000d,"Missing or invalid platform license.",error
+ilmtagent,0x03e3000e,"Error configuring the ILMT agent.",error
+ilmtagent,0x03e30010,"Missing or corrupted masthead.",error
+ipmi,0x03830001,"LAN Channel IP address invalid",error
+ipmi,0x03830002,"LAN Channel IP address not IPv4",error
+ipmi,0x03830003,"LAN Channel default gateway not on same subnet",error
+ipmi,0x03830004,"Duplicate User ID value",error
+ipmi,0x03830005,"Invalid character in user name",error
+ipmi,0x03830006,"Invalid character in password",error
+ipmi,0x03830007,"User name too long",error
+ipmi,0x03830008,"Invalid LAN Channel name",error
+ipmi,0x03830009,"Error setting configuration in BMC",error
+ipmi,0x0383000a,"LAN Channel not found in BMC",error
+ipmi,0x0383000b,"Illegal password length",error
+ipmi,0x0383000c,"Error reading configuration from BMC",error
+isam,0x04530001,"Local user registry required when the policy server type is 'local'.",error
+isam,0x04530002,"Remote user registry required when the policy server type is 'remote'.",error
+isam,0x04530003,"Policy Server Host required when the policy server type is 'remote'.",error
+isam,0x04530004,"Policy Server Port required when the policy server type is 'remote'.",error
+isam,0x04530005,"Policy admin password required when the policy server type is 'local'.",error
+isam,0x04530006,"SSL Server Lifetime required when the policy server type is 'local'.",error
+isam,0x04530007,"SSL Compliance required when the policy server type is 'local'.",error
+isam,0x04530008,"LDAP Host required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote', or the policy server type is 'remote' and the User Remote Registry Type is 'ldap'.",error
+isam,0x04530009,"LDAP Port required when the policy server type is 'local' and the User Remote Registry Type is'ldap_remote', or the policy server type is 'remote' and the User Remote Registry Type is 'ldap'.",error
+isam,0x0453000a,"LDAP DN required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote'.",error
+isam,0x0453000b,"LDAP Password required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote'.",error
+isam,0x0453000c,"Either LDAP Certificate Database or Crypto Profile Credentials required when the the User Remote Registry Type is 'ldap_remote', and SSL is enabled",error
+isam,0x0453000e,"HTTP or HTTPS must be enabled.",error
+isam,0x0453000f,"HTTP Port is required when HTTP is enabled.",error
+isam,0x04530010,"HTTPS Port is required when HTTPS is enabled.",error
+isam,0x04530011,"Either SSL Key File or SSL Crypto Profile required when HTTPS is enabled.",error
+isam,0x04530012,"Either Junction Key File or Crypto Profile required.",error
+isam,0x04530013,"User Registry HTTPS Port is required when User Registry SSL is enabled.",error
+isam,0x04530014,"Either Key File or Crypto Profile required when User Registry SSL is enabled.",error
+isam,0x04530015,"Junction Type Standard is required when Junction Type is 'standard'.",error
+isam,0x04530016,"Junction Type Virtual is required when Junction Type is 'virtual'.",error
+isam,0x04530017,"Either Mutual Auth Key File or Mutual Auth Validation Credentials required.",error
+isam,0x04530018,"Either the Key File or Crypto Profile property is required when SSL is enabled in the Federated Directory.",error
+isam,0x04530019,"The Federated Directory Key File is required when the Client Certificate is specified.",error
+isam,0x0453001a,"Either the Key File or Crypto Profile property can be specified when SSL is enabled in the Federated Directory.",error
+isam,0x0453001b,"Master Instance Name is required when Cluster is Master is not enabled.",error
+isam,0x0453001c,"Trigger URL is required when EAI Transport is not 'none'.",error
+isam,0x0453001d,"Audit Log Type is required when Audit Log is enabled.",error
+isam,0x0453001e,"Local Response Redirect URI is required when Local Response Redirect is enabled.",error
+isam,0x0453001f,"Master Authentication Server is required when Is Master Authentication Server is not selected.",error
+isam,0x04530020,"User Name is required when Basic Authentication is enabled.",error
+isam,0x04530021,"Password or Password Alias is required when Basic Authentication is enabled.",error
+isam,0x04530022,"GSO Resource or Group is required when HTTP Basic Authentication Header is set to 'GSO'.",error
+isam,0x04530023,"LDAP Certificate Database required when the the User Remote Registry Type is 'ldap_remote', and SSL is enabled",error
+isam,0x04530024,"SSL Key File required when HTTPS is enabled.",error
+isam,0x04530025,"Key File required when User Registry SSL is enabled.",error
+isam,0x04530026,"Key File property is required when SSL is enabled in the Federated Directory.",error
+isam,0x04530027,"Mutual Auth Key File required.",error
+isam,0x04530028,"Either Basic Auth or Mutual Auth can be enabled.",error
+isam,0x04530029,"Target Back-end Server configuration is required.",error
+isam,0x0453002a,"Junction Point Name must begin with slash.",error
+isam,0x0453002b,"Duplicate junction point names.",error
+isam,0x0453002c,"Junction Point Name must not begin with slash.",error
+isam,0x0453002d,"Local Address is invalid.",error
+isam,0x0453002e,"Invalid Access Manager Runtime.",error
+isam,0x0453002f,"Required primary local address is invalid.",error
+isam,0x04530030,"Required secondary local address is invalid.",error
+isam,0x04530031,"Client Certificate EAI URI is required when Accept Client Certificates is not set to 'never'.",error
+isam,0x04530032,"Certificate Data is required when Accept Client Certificates is not set to 'never'.",error
+isam,0x04530033,"Realm Name is required when Transport is not set to 'none'.",error
+isam,0x04530034,"Access Manager Junction is attached to another Access Manager Reverse Proxy.",error
+isam,0x04530035,"Both EAI Data and EAI URI must be set.",error
+isam,0x04530036,"LTPA Key File Password or Password Alias is required when LTPA Transport is not 'none'.",error
+iscsi,0x02b30001,"Login to target failed.",error
+iscsi,0x02b30002,"DNS lookup failed.",error
+iscsi,0x02b30003,"Configuration failure.",error
+iscsi,0x02b30005,"LUN already exists",error
+iscsi,0x02b30006,"bound to volume resource",error
+iscsi,0x02b30007,"invalid iscsi name",error
+iscsi,0x02b30008,"active targets",error
+iscsi,0x02b30009,"hardware adapter failure",error
+llm,0x02f30001,"Invalid or missing LLM configuration",error
+llm,0x02f30002,"Invalid or missing LLM Instance configuration",error
+llm,0x02f30009,"Missing LLM Transmit object for the LLM Instance referenced by this LLM Route",error
+llm,0x02f3000a,"Missing LLM Receive object for the LLM Instance referenced by this LLM Policy",error
+llm,0x02f3000b,"Missing LLM Transmit object for the LLM Instance referenced by this LLM Route",error
+llm,0x02f3000c,"Missing LLM Receive object for the LLM Instance referenced by this LLM Policy",error
+llm,0x02f3000d,"Missing LLM Unicast object for the LLM Instance referenced by this LLM Route",error
+llm,0x02f3000e,"Missing LLM Unicast object for the LLM Instance referenced by this LLM Policy",error
+llm,0x02f3000f,"Invalid configuration item type",error
+llm,0x02f30010,"Invalid configuration item value",error
+llm,0x02f30011,"Invalid message selection",error
+llm,0x02f30012,"Invalid topic match selection",error
+llm,0x02f30013,"Invalid property map",error
+llm,0x02f30014,"Invalid IP address",error
+llm,0x02f30015,"Invalid multicast group",error
+llm,0x02f30016,"Invalid interval time specification or cron selector",error
+llm,0x02f30017,"Invalid LLM Multicast Tier Group member specification",error
+llm,0x02f30018,"Invalid port specified",error
+llm,0x02f30019,"Port in use",error
+llm,0x02f3001a,"Topic in use",error
+llm,0x02f3001b,"Invalid XML configuration",error
+llm,0x02f3001c,"Unknown configuration item",error
+llm,0x02f3001d,"RMM, RUM or RUDP configuration error",error
+llm,0x02f3001e,"Maximum number of LLM Multicast Receive or Transmit objects have been created",error
+llm,0x02f3001f,"Multicast Tier Group processing requires both a receiver and a transmitter in the LLM Instance containing the Multicast Tier Group.",error
+llm,0x02f30020,"TurboFlow and property maps are not allowed in an LLM Route within an LLM Multicast Tier Group",error
+llm,0x02f30021,"RUDP is an invalid protocol for an LLM Route that references an LLM Instance configured with an LLM Multicast Tier Group.",error
+llm,0x02f30022,"Topic selection cannot be used within an LLM Policy that references an LLM Instance configured with an LLM Multicast Tier Group.",error
+llm,0x02f30023,"Specified network interface not found",error
+llm,0x02f30024,"A file was not found",error
+llm,0x02f30026,"LLM Instance object is not defined for this LLM Policy",error
+llm,0x02f30027,"LLM Instance object is not defined for this LLM Route",error
+llm,0x02f30028,"A configuration error has occurred",error
+llm,0x02f30029,"The XML field name is missing or has an invalid format",error
+llm,0x02f3002a,"The selection criteria length is invalid",error
+llm,0x02f3002b,"A selection criteria or configuration item exceeds the maximum of 255 bytes",error
+llm,0x02f3002c,"A string in the message selector or property map rule has an error",error
+llm,0x02f3002d,"A string in the message selector or property map rule has an error",error
+llm,0x02f3002e,"Message Selection expression or Map Properties rule uses an invalid namespace",error
+llm,0x02f3002f,"Too many configuration items in the list",error
+llm,0x02f30030,"Too few configuration items in the list",error
+llm,0x02f30031,"Too few configuration objects",error
+llm,0x02f30032,"The specified value is smaller than the allowable minimum",error
+llm,0x02f30033,"The specified value is larger than the allowable maximum",error
+llm,0x02f30034,"Error retrieving LLM Instance statistics",error
+llm,0x02f30035,"Invalid destination",error
+llm,0x02f30036,"Error initializing LLM Multicast Receiver",error
+llm,0x02f30037,"Missing topic or topic selection",error
+llm,0x02f30038,"Missing subject",error
+llm,0x02f30039,"Missing search subject",error
+llm,0x02f3003a,"Missing search timeout",error
+llm,0x02f3003b,"Cannot add message field",error
+llm,0x02f3003c,"Cannot create inbox",error
+llm,0x02f3003d,"Cannot create event listener",error
+llm,0x02f3003e,"Cannot create message",error
+llm,0x02f3003f,"Cannot start subsystem",error
+llm,0x02f30040,"Cannot create reply subject",error
+llm,0x02f30041,"Cannot create transport",error
+llm,0x02f30042,"Cannot start the TIBCO RV daemon",error
+llm,0x02f30043,"Cannot get message field",error
+llm,0x02f30044,"Cannot send message",error
+llm,0x02f30045,"Cannot set send subject",error
+llm,0x02f30046,"Initialization error",error
+llm,0x02f30047,"Invalid protocol",error
+llm,0x02f30048,"Invalid certified messaging name",error
+llm,0x02f30049,"Invalid subject",error
+llm,0x02f3004a,"Invalid search subject",error
+llm,0x02f3004b,"Invalid request subject",error
+llm,0x02f3004c,"Invalid reply subject",error
+llm,0x02f3004d,"Storage Volume is not operational.",error
+llm,0x02f3004e,"Reusable name is not unique",error
+llm,0x02f3004f,"Missing service parameter",error
+llm,0x02f30050,"Missing network interface parameter",error
+llm,0x02f30051,"Missing multicast group",error
+llm,0x02f30052,"Missing daemon parameter",error
+llm,0x02f30053,"Cannot create transport due to argument conflict",error
+llm,0x02f30054,"Invalid pre-register listener",error
+llm,0x02f30055,"Invalid disallow listener",error
+llm,0x02f30056,"The specified value is longer than the allowable maximum",error
+llm,0x02f30059,"The RUM instance could not be initialized due to a port error",error
+llm,0x02f3005a,"Cannot create certified messaging transport",error
+llm,0x02f3005b,"Cannot create certified messaging event listener",error
+llm,0x02f3005c,"Cannot pre-register certified messaging event listener",error
+llm,0x02f3005d,"Cannot disallow certified messaging event listener",error
+llm,0x02f3005e,"Cannot send certified message",error
+llm,0x02f3005f,"Missing transport",error
+llm,0x02f30060,"Cannot retrieve the certified message sequence number",error
+llm,0x02f30061,"Too many routes specified in a request/reply TIBCO RV configuration",error
+llm,0x02f30062,"The admin state on the specified reply route is down.",error
+llm,0x02f30063,"The reply route object specified was not found or is not an LLM Route",error
+llm,0x02f30064,"Could not create a TIBCO RV inbox necessary to receive the reply to an out going request.",error
+llm,0x02f30065,"Could not create a TIBCO RV listener necessary to receive the reply to an out going request.",error
+llm,0x02f30066,"Could not create a TIBCO RV timeout event necessary for correct request/reply processing.",error
+llm,0x02f30067,"Could not set the reply subject of a TIBCO RV message.",error
+llm,0x02f30068,"Could not queue up a TIBCO RV request/reply flow.",error
+llm,0x02f30069,"TIBCO RV request/reply requesting route not available.",error
+llm,0x02f3006a,"TIBCO RV reply could not be forwarded on a reply route.",error
+llm,0x02f3006b,"TIBCO RV message could not be converted to properties.",error
+llm,0x02f3006c,"XML representation of a TIBCO RV message could not be converted to a TIBCO RV message.",error
+llm,0x02f3006d,"Invalid route list",error
+llm,0x02f3006e,"A TLM route with request/reply on cannot be specified on a TLM policy",error
+llm,0x02f3006f,"Cannot get message size",error
+llm,0x02f30070,"LLM topic already in use.",error
+llm,0x02f30071,"TIBCO RV subject already in use.",error
+llm,0x02f30072,"Invalid port specified in the Daemon Parameter property.",error
+llm,0x02f30073,"Invalid host specified in the Daemon Parameter property.",error
+llm,0x02f30074,"Invalid route protocol",error
+llm,0x02f30075,"Failed to create Ledger file.",error
+llm,0x02f30076,"Failed to delete Ledger file.",error
+llm,0x02f60077,"Bringing object down to delete ledger file.",info
+llm,0x02f30078,"LLM Instance object is not started for this LLM Policy",error
+llm,0x02f30079,"LLM Instance object is not started for this LLM Route",error
+llm,0x02f3007a,"Cannot create transport due to failure to connect to daemon",error
+llm,0x02f3007b,"Path to an LLM Instance object advance configuration file is not valid.",error
+llm,0x02f3007c,"Cannot unregister certified messaging event listener",error
+llm,0x02f3007d,"Certified messaging not enabled",error
+llm,0x02f3007e,"TLM protocol does not support remove listener action",error
+llm,0x02f3007f,"TIBCO RV Route not in the up state",error
+llm,0x02f30080,"Invalid volume name",error
+llm,0x02f30081,"Invalid remote daemon",error
+mgmt,0x00360001,Pending,info
+mgmt,0x00330002,"Memory full",error
+mgmt,0x00330003,"Invalid class",error
+mgmt,0x00330004,"Invalid name",error
+mgmt,0x00330005,"Required property is missing",error
+mgmt,0x00330007,"Cannot find configuration object",error
+mgmt,0x00330008,"Cannot remove referenced configuration object",error
+mgmt,0x00330009,"Cannot install XML management interface",error
+mgmt,0x0033000b,"Too many arguments",error
+mgmt,0x0033000c,"Configuration is not valid",error
+mgmt,0x0034000d,"Object is disabled",warning
+mgmt,0x0036000e,"Required referenced object not up",info
+mgmt,0x00360010,"No CRLs configured",info
+mgmt,0x00340011,"No matching rules configured",warning
+mgmt,0x00340012,"No nameserver configured",warning
+mgmt,0x00360013,"Configured.",info
+mgmt,0x00350014,"Operational state up",notice
+mgmt,0x00350015,"Operational state down",notice
+mgmt,0x00350016,"Service installed on port",notice
+mgmt,0x00340017,"Service removed from port",warning
+mgmt,0x00340018,"Local configuration modified by script",warning
+mgmt,0x00330019,"Operation state transition to up failed",error
+mgmt,0x0033001a,"Operation state transition to down failed",error
+mgmt,0x0033001b,"DataGlue is not licensed for this device",error
+mgmt,0x0033001c,"Maximum number allocated",error
+mgmt,0x0033001d,"Duplicate category",error
+mgmt,0x0033001e,"Invalid remote login",error
+mgmt,0x0036001f,"Interface registered with network dependent configuration queue",info
+mgmt,0x00360020,"Network dependent configuration queue max wait time reached",info
+mgmt,0x00360021,"Network dependent configuration executed",info
+mgmt,0x00350022,"The object has not processed any configuration",notice
+mgmt,0x00330023,"PKCS7-SMIME is not licensed for this device",error
+mgmt,0x00330024,"SQL is not licensed for this device",error
+mgmt,0x00330025,"SQL Data Source object failed to start",error
+mgmt,0x00360026,"Domain is down",info
+mgmt,0x00340027,"Multistep Probe enabled",warning
+mgmt,0x00340028,"Configuration is deleted",warning
+mgmt,0x00330029,"Processing Policy is not valid",error
+mgmt,0x0036002a,"Object deletion in progress",info
+mgmt,0x0033002b,"Cannot release referenced configuration object",error
+mgmt,0x0033002c,"Cannot find referenced configuration object",error
+mgmt,0x0033002d,"Cannot undo last configuration change",error
+mgmt,0x0033002e,"Cannot undo new configuration",error
+mgmt,0x0033002f,"Cannot undo - configuration has not been modified",error
+mgmt,0x00300030,"Failed to access DataPower license",emergency
+mgmt,0x00310031,"Access Denied - use 'cancel' to exit any submode.",alert
+mgmt,0x00330032,"Configuration contains reference loop",error
+mgmt,0x00330033,"Please show logs for details.",error
+mgmt,0x00330034,"Low audit disk space",error
+mgmt,0x00330035,"DPA suffix is required for the map file of the xformbin in tx dpa mode",error
+mgmt,0x00330036,"required property email-address is missing",error
+mgmt,0x00330037,"required property smtp-domain is missing",error
+mgmt,0x00330038,"required property remote-address is missing",error
+mgmt,0x00330039,"required local-address is missing",error
+mgmt,0x0033003a,"domain import failed",error
+mgmt,0x0033003b,"import url protocol not supported",error
+mgmt,0x0033003c,"There are currently insufficient resources to start the SQL endpoint",error
+mgmt,0x0036003d,"in quiescence",info
+mgmt,0x0033003e,"Cannot read or write to a URL",error
+mgmt,0x0033003f,"An internal routine could not create a temporary file.",error
+mgmt,0x00330040,"An internal routine failed during the tar process",error
+mgmt,0x00330041,"An internal routine could not open a temporary file.",error
+mgmt,0x00330042,"An internal routine could not read a temporary file.",error
+mgmt,0x00330043,"The manifest file could not be parsed.",error
+mgmt,0x00330044,"The secure-backup file and the appliance are not at the same firmware level.",error
+mgmt,0x00330045,"The secure-backup file had a checksum problem.",error
+mgmt,0x00330046,"The secure-backup file had a filesize problem.",error
+mgmt,0x00330047,"The remove of an internal directory failed.",error
+mgmt,0x00330048,"The configuration file could not be linked to.",error
+mgmt,0x00330049,"cannot set Common Criteria mode",error
+mgmt,0x0033004a,"Cannot generate ephemeral key",error
+mgmt,0x0033004b,"Cannot find a required file",error
+mgmt,0x0033004c,"Secure backup restore filesize mismatch",error
+mgmt,0x0033004d,"The secure-restore had a checksum mismatch with the manifest information",error
+mgmt,0x0034004e,"The secure-backup or secure-restore issued informational log entries.",warning
+mgmt,0x0033004f,"An encryption failure occurred.",error
+mgmt,0x00330050,"An decryption failure occurred.",error
+mgmt,0x00330051,"The protocol specified is not supported",error
+mgmt,0x00330052,"The secure backup file has a mount mismatch",error
+mgmt,0x00330053,"An invalid path is specified for raid",error
+mgmt,0x00330054,"An invalid path is specified for iscsi",error
+mgmt,0x00330055,"Previous attempt to generate error report failed",error
+mgmt,0x00330056,"The secure-restore manifest file could not be verified with it's signature",error
+mgmt,0x00330057,"There is insufficient space to complete the secure-restore",error
+mgmt,0x00360058,"The secure-restore validation is complete",info
+mgmt,0x00330059,"The secure-restore manifest file has been corrupted",error
+mgmt,0x0033005a,"Failure Notification tcp connection validation failed",error
+mgmt,0x0033005b,"Request timed out due to inactivity",error
+mgmt,0x0033005c,"The configuration could not be parsed.",error
+mgmt,0x0033005d,"A domain name and compact flash directory name conflict.",error
+mgmt,0x0033005e,"The domain name and RAID directory name conflict.",error
+mgmt,0x0033005f,"The domain name and iSCSI directory name conflict.",error
+mgmt,0x00330060,"The domain name and Fibre Channel directory name conflict.",error
+mgmt,0x00330061,"A dependent object could not be found",error
+mgmt,0x00330062,"Invalid threshold type",error
+mgmt,0x00330063,"Invalid algorithm type",error
+mgmt,0x00330064,"Cannot install Interop Service.",error
+mgmt,0x00330065,"Invalid start/stop date range",error
+mgmt,0x00330066,"The number of parameters for the saved search query exceeds the maximum limit.",error
+mgmt,0x00330067,"Key is not sufficient for the operations.",error
+mgmt,0x00330068,"One or more of the clients is misconfigured for the purpose.",error
+mgmt,0x00330069,"Data does not meet length requirement.",error
+mgmt,0x0033006a,"Invalid time period specified.",error
+mgmt,0x0033006b,"Invalid XML bytes scanned specified",error
+mgmt,0x0033006c,"System Identifier in System Settings is too long, must be 64 characters or less",error
+mgmt,0x0033006d,"Cannot extract the language pack.",error
+mgmt,0x0033006e,"Cannot modify language settings.",error
+mgmt,0x0033006f,"Authorization grant type is not supported for the client type.",error
+mgmt,0x00330070,"Invalid refresh_token value specified.",error
+mgmt,0x00330071,"Configuration error in XML Management Interface.",error
+mgmt,0x00330072,"Configuration error in WSRR Server.",error
+mgmt,0x00330073,"Configuration error in WSRR Server.",error
+mgmt,0x00330074,"A subscription of type WSDL or Concept requires a value for Namespace.",error
+mgmt,0x00330075,"A subscription type of Service Version requires WSRR server version 8.0.2 or greater.",error
+mgmt,0x00330076,"Specified Mode requires an Error Rule of direction 'Error'.",error
+mgmt,0x00330077,"Specified Mode requires a valid URL.",error
+mgmt,0x00330078,"Invalid Response Code number.",error
+mgmt,0x00350079,"Domain is open for e-Business",notice
+mgmt,0x0036007a,"Cannot disable English.",info
+mgmt,0x0033007b,"APOP authentication cannot be configured due to crypto mode",error
+mgmt,0x0033007c,"The specified crypto algorithm cannot be configured or used due to crypto mode",error
+mgmt,0x0033007d,"The secure-backup file and the appliance do not have the same crypto mode",error
+mgmt,0x0033007e,"The object is currently locked for changes",error
+mgmt,0x0036007f,"Cannot disable the language that is the system locale.",info
+mgmt,0x00330080,"No custom method configured",error
+mgmt,0x00330081,"Cannot disable Audit Log.",error
+mgmt,0x00330082,"The ISAM runtime feature is not licensed for this device.",error
+mgmt,0x00330083,"The ISAM Runtime feature is not installed on this device.",error
+mgmt,0x00330084,"A runtime configuration operation failed.",error
+mgmt,0x00330085,"The transaction queue is blocked as the runtime is down.",error
+mgmt,0x00360086,"The Access Manager Reverse Proxy has shut down",info
+mgmt,0x00330087,"Invalid properties detected.",error
+mgmt,0x00330088,"Cannot add one or more password aliases.",error
+mgmt,0x00330089,"Cannot delete one or more password aliases.",error
+mgmt,0x0033008a,"Cannot save the password alias map file.",error
+mgmt,0x0033008b,"The source appliance is not compatible with the target appliance. See the help for the support matrix between different machine type models.",error
+mgmt,0x0033008c,"Cannot resolve the password alias.",error
+mgmt,0x0033008d,"A runtime unconfiguration operation failed.",error
+mgmt,0x0033008e,"A reverse proxy unconfiguration operation failed.",error
+mgmt,0x0035008f,"Operational state down pending",notice
+mgmt,0x00330090,"The licensed features are not the same on the secure backup and target appliances. See logs for more detail",error
+mgmt,0x00330091,"A SSL proxy profile is not configured correctly for this service.",error
+mgmt,0x00330092,"Failed to configure a reverse proxy.",error
+mgmt,0x00330093,"Failed to configure a reverse proxy junction.",error
+mgmt,0x00330094,"Invalid reverse proxy properties detected.",error
+mgmt,0x00330095,"The object is of a class that cannot be modified",error
+mgmt,0x00330096,"Cannot disable RBM Settings.",error
+mgmt,0x00330097,"The password value cannot be empty",error
+mgmt,0x00330098,"Claim check cannot contain iss check",error
+mgmt,0x00330099,"JWT Validator does not contain iss check",error
+mgmt,0x0033009a,"JWT Validator does not contain aud check",error
+mgmt,0x0033009b,"Only verify or custom check is allowed",error
+mgmt,0x0033009c,"JWT Grant Validator does not contain iss check",error
+mgmt,0x0033009d,"JWT Grant Validator does not contain aud check",error
+mgmt,0x0033009e,"JWT Grant Validator does not contain verify check",error
+mgmt,0x0033009f,"Only authorization code and implicit grant type support OIDC",error
+mgmt,0x003300a0,"The aud claim and iat claim must be specified as required by OIDC",error
+mgmt,0x003300a1,"Invalid threshold interval",error
+mgmt,0x003300a2,"Cannot decrypt with the identification credentials",error
+mgmt,0x003300a3,"Missing an OAuth grant type",error
+mgmt,0x003300a4,"Cannot connect to target",error
+mgmt,0x003300a5,"Failed to connect to port",error
+mgmt,0x003300a6,"Failed to connect to host",error
+mgmt,0x003300a7,"Protocol connection failure",error
+mgmt,0x003300a8,"The DFDL feature is not on the DataPower Gateway.",error
+mime,0x00630001,"Internal error",error
+mime,0x00630002,"No root part in MIME message",error
+mime,0x00630003,"No content-id in DIME attachment",error
+mime,0x00630004,"An attachment exceeded the size limit imposed by attachment-byte-count",error
+mime,0x00630005,"Virus Detected",error
+mime,0x00630006,"Root part not first",error
+mime,0x00630007,"An attachment package exceeded the size limit imposed by attachment-package-byte-count",error
+mime,0x00630008,"An incoming multipart/signed message was not correctly formatted.",error
+monitor,0x00a30001,"Unimplemented feature",error
+monitor,0x00a60002,"Message rejection",info
+monitor,0x00a60003,"Message shaped",info
+mq,0x01330001,"internal error",error
+mq,0x01330002,"backend server error",error
+mq,0x01330003,"request multistep processing failure",error
+mq,0x01330004,"response multistep processing failure",error
+mq,0x01330005,"could not send request",error
+mq,0x01330006,"could not receive response",error
+mq,0x01330007,"could not connect to the back QM",error
+mq,0x01330008,"could not enable listener (client port not set)",error
+mq,0x01330009,"could not enable listener",error
+mq,0x0133000a,"rejected by monitor filter",error
+mq,0x0133000b,"QM down",error
+mq,0x0133000c,"The unit-of-work was backed out (Reason Code 2003)",error
+mq,0x0133000d,"Connection was broken (Reason Code 2009)",error
+mq,0x0131000e,"Could not send, message is too large (Reason Code 2010)",alert
+mq,0x0133000f,"MQGET is not allowed on this queue (Reason Code 2016)",error
+mq,0x01330010,"The get or put call failed due to QM transactionality limit (Reason Code 2024)",error
+mq,0x01330011,"A new connection could not be opened (Reason Code 2025)",error
+mq,0x01330012,"The message could not be put on the queue (Reason Code 2030)",error
+mq,0x01330013,"The get call timed out before receiving any messages (Reason Code 2033)",error
+mq,0x01330014,"The call failed due to permissions for this user (Reason Code 2035)",error
+mq,0x01330015,"The call failed because the queue is in use (Reason Code 2042)",error
+mq,0x01330016,"The call failed because the options for this call are invalid (Reason Code 2045)",error
+mq,0x01330017,"Could not send, message priority is too high (Reason Code 2049)",error
+mq,0x01330018,"Could not send, MQPUT is not allowed (Reason Code 2051)",error
+mq,0x01330019,"Could not send, destination queue is full (Reason Code 2053)",error
+mq,0x0133001a,"Could not send due to lack of storage (Reason Code 2056)",error
+mq,0x0133001b,"Could not connect to the named QM (Reason Code 2058)",error
+mq,0x0133001c,"Could not connect to the QM (Reason Code 2059)",error
+mq,0x0133001d,"Could not get, truncated messages not accepted (Reason Code 2080)",error
+mq,0x0133001e,"Could not open the alias Q (Reason Code 2082)",error
+mq,0x0133001f,"Could not open, destination queue or topic object is unknown (Reason Code 2085)",error
+mq,0x01330020,"Could not open, remote queue manager is unknown (Reason Code 2087)",error
+mq,0x01330021,"Could not convert the message (Reason Code 2110)",error
+mq,0x01330022,"Operation failed due to quiescing QM (Reason Code 2161)",error
+mq,0x01330023,"Operation failed due to stopping QM (Reason Code 2162)",error
+mq,0x01330024,"Message was too big for the channel (Reason Code 2218)",error
+mq,0x01330025,"Q BackoutThreshold reached (Reason Code 2362)",error
+mq,0x01330026,"MQPUT call failed since segments are not supported (Reason Code 2365)",error
+mq,0x01330027,"SSL connection cannot be established (Reason Code 2371)",error
+mq,0x01330028,"SSL initialization failed due to a key repository error (Reason Code 2381)",error
+mq,0x01330029,"SSL has already been initialized (Reason Code 2391)",error
+mq,0x0133002a,"SSL configuration is not valid (Reason Code 2392)",error
+mq,0x0133002b,"SSL initialization has failed (Reason Code 2393)",error
+mq,0x0133002c,"SSL cipher suite not known (Reason Code 2400)",error
+mq,0x0133002d,"SSL certificate has been revoked (Reason Code 2401)",error
+mq,0x0133002e,"SSL certificate store error (Reason Code 2402)",error
+mq,0x0133002f,"SSL Key Repository conversion to SSL Proxy Profile failed",error
+mq,0x01330030,"No message under cursor (Reason Code 2034)",error
+mq,0x01330031,"Selector syntax error (Reason Code 2459)",error
+mq,0x01330032,"MQSUB calls are currently inhibited for the topic subscribed to. (Reason Code 2503)",error
+mq,0x01330033,"Invalid topic string is specified. (Reason Code 2425)",error
+mq,0x01330034,"The topic of the subscriptions cannot be changed. (Reason Code 2510)",error
+mq,0x01330035,"The sublevel of the subscriptions cannot be changed. (Reason Code 2512)",error
+mq,0x01330036,"The named subscription is in used by another application. (Reason Code 2429)",error
+mq,0x01330037,"The subscription named in the MQSUB call is invalid. (Reason Code 2523)",error
+mq,0x01330038,"The SelectionString of the subscriptions cannot be changed. (Reason Code 2524)",error
+mq,0x01330039,"The destination class of the subscriptions cannot be changed. (Reason Code 2533)",error
+mq,0x0133003a,"An MQSUB call using the MQSO_DURABLE option failed. (Reason Code 2436)",error
+mq,0x0133003b,"The selector is always false. (Reason 2504)",error
+mq,0x0133003c,"The function, ex: MQSUB() or MQSTAT() requested is not available in the current environment. (Reason Code 2298)",error
+mq,0x0133003d,"Failed to deliver the publication to one of the subscribers. (Reason Code 2502)",error
+mq,0x0133003e,"A looping publication has been detected and put onto the dead-letter queue. (Reason Code 2541)",error
+mq,0x0133003f,"Failed for some of the destinations in an MQOPEN or MQPUT call using a distribution list. (Reason Code 2136)",error
+mq,0x01330040,"Transfer fails due to front side error.",error
+mq,0x01330041,"Transfer fails due to maximum message size too small.",error
+mq,0x01330042,"The selected IBM MQ SSL Cipher is not supported for the specified protocol option",error
+multistep,0x00c30001,"Parse Error, XML not well formed",error
+multistep,0x00c30002,"Compilation error",error
+multistep,0x00c30003,"XML not schema valid",error
+multistep,0x00c30004,"Missing URL in XSL PI",error
+multistep,0x00c30005,"Bad URL in XSL PI",error
+multistep,0x00c30006,"Illegal protocol in XSL PI",error
+multistep,0x00c30007,"Attachments not allowed",error
+multistep,0x00c30008,"Missing input on action",error
+multistep,0x00c30009,"Unknown rule in CALL",error
+multistep,0x00c3000a,"Convert-HTTP failed to parse the CGI query arguments provided",error
+multistep,0x00c3000b,"Invalid xpath expression",error
+multistep,0x00c3000c,"Context does not exist",error
+multistep,0x00c3000d,"Variable does not exist on that context or has invalid name",error
+multistep,0x00c3000e,"Cannot read from OUTPUT",error
+multistep,0x00c3000f,"Invalid URL",error
+multistep,0x00c30010,"Internal Error",error
+multistep,0x00c60011,"On-Error Rule Triggered",info
+multistep,0x00c30012,"INPUT not available or cannot be used this way",error
+multistep,0x00c30013,"External URL had DNS failure",error
+multistep,0x00c30014,"External URL unreachable",error
+multistep,0x00c30015,"External URL timed out",error
+multistep,0x00c30016,"External URL protocol Error",error
+multistep,0x00c30017,"External URL network failure",error
+multistep,0x00c30018,"Style sheet failed to stream",error
+multistep,0x00c30019,"CALL recursive depth too deep",error
+multistep,0x00c3001a,"CALL rule is not operational",error
+multistep,0x00c3001b,"Binary style sheet is incompatible with non-binary processing action",error
+multistep,0x00c3001c,"Multiple attachment packages were written to the output context",error
+multistep,0x00c3001d,"Root part not first in streaming conformance mode",error
+multistep,0x00c3001e,"Loop/conditional action recursive depth too deep",error
+multistep,0x00c3001f,"Unknown action",error
+multistep,0x00c30020,"Event-sink waiting on synchronous action",error
+multistep,0x00c30021,"Event-sink timeout",error
+multistep,0x00c30022,"dpa runtime error",error
+multistep,0x00c30023,"convert-http unknown URL",error
+multistep,0x00c30024,"Input message not signed",error
+multistep,0x00c30025,"Parse Error, invalid JSON",error
+multistep,0x00c30026,"Invalid digest algorithm for CMS message verification",error
+multistep,0x00c30027,"GatewayScript feature is disabled",error
+multistep,0x00c30028,"dp:set-variable called with an empty XPath 2.0 sequence, while it expected a single item or a sequence of a single item.",error
+multistep,0x00c30029,"dp:set-variable called with an XPath 2.0 sequence with more than one item, while it expected to be called with a single item or a sequence of a single item.",error
+netegrity,0x01c30001,"Restarting CA Single Sign-On client endpoint failed.",error
+netegrity,0x01c30002,"Starting CA Single Sign-On client endpoint failed.",error
+netegrity,0x01c30003,"Agent name missing.",error
+netegrity,0x01c30004,"Agent password missing.",error
+netegrity,0x01c30005,"PolicyServer host missing.",error
+netegrity,0x01c30006,"Invalid SmHost configuration file.",error
+nethsm,0x04a30001,"Cannot load the key from the Luna HSM.",error
+nethsm,0x04a30002,"Fail to configure the Luna HSM.",error
+nethsm,0x04a30003,"Fail to configure the Luna HSM partition.",error
+nethsm,0x04a30004,"Duplicated HA label.",error
+nethsm,0x04a30005,"No members are defined for the HA group.",error
+nethsm,0x04a30006,"Fail to configure the HA group.",error
+network,0x00b30002,"Failed to install on port",error
+network,0x00b30004,"Invalid local address",error
+network,0x00b30007,"Network Error",error
+network,0x00b30009,"Host connection could not be established",error
+network,0x00b3000a,"Cannot install without a service.",error
+network,0x00b3000b,"Cannot install because the service is down.",error
+network,0x00b30017,"Standby VIP address family does not match primary.",error
+network,0x00b30018,"No Primary address defined, VIP not supported.",error
+network,0x00b30019,"Default Gateway is not an IPv4 address.",error
+network,0x00b3001b,"Too many members were created for this algorithm. Limit is 64.",error
+network,0x00b3001c,"Too many members were created. Limit is 512.",error
+network,0x00b3001d,"You must configure at least one Monitored Cookie for active-conditional mode.",error
+network,0x00b3001e,"The Insertion Cookie Name contains an invalid character sequence.",error
+network,0x00b3001f,"The Insertion Path contains an invalid character sequence.",error
+network,0x00b30020,"The Insertion Domain contains an invalid character sequence.",error
+network,0x00b30021,"One or more of the monitored cookies contains an invalid character sequence.",error
+network,0x00b30022,"No host name configured for SMTP server connection",error
+network,0x00b30023,"No account name configured for SMTP server connection with authentication",error
+network,0x00b30024,"Invalid characters used in WLM group name",error
+network,0x00b30025,"Unsupported functionality",error
+network,0x00b30026,"Resource not found. Try a different URL.",error
+network,0x00b30027,"Generic error",error
+network,0x00b30028,"Connection error.",error
+network,0x00b30029,"Error with DNS lookup.",error
+network,0x00b3002a,"Error with SSL connection.",error
+network,0x00b3002b,"Problem reading HTTP headers.",error
+network,0x00b3002c,"Loop detection triggered.",error
+network,0x00b3002d,"Error accessing document in document cache.",error
+network,0x00b3002e,"exceeded allowable number of redirects",error
+network,0x00b3002f,"Redirect does not have location header.",error
+network,0x00b30030,"Redirect has bad body length.",error
+network,0x00b30031,"Problem creating connection for redirect.",error
+network,0x00b30032,"Cannot handle HTTP response code.",error
+network,0x00b30033,"Protocol-framing error: SMTP or FTP.",error
+network,0x00b30034,"Protocol response error: SMTP or FTP.",error
+network,0x00b30035,"Protocol state error: SMTP or FTP.",error
+network,0x00b30036,"Port timed out.",error
+network,0x00b30037,"Port error. Try again.",error
+network,0x00b30038,"Redirect is to an unsupported URI schema.",error
+network,0x00b30039,"Invalid local address.",error
+network,0x00b3003a,"File not found.",error
+network,0x00b3003b,"Packet capture already running with this file name.",error
+network,0x00b3003c,"Failed to create file for packet capture.",error
+network,0x00b3003d,"Failed to set up packet recording.",error
+network,0x00b3003e,"Multicast IP version mismatch.",error
+network,0x00b3003f,"Invalid ephemeral port range",error
+network,0x00b30040,"Internal network configuration error.",error
+network,0x00b30041,"Error configuring standby control.",error
+network,0x00b30042,"Invalid parent for the VLAN interface.",error
+network,0x00b30043,"Cannot delete the aggregation interface.",error
+network,0x00b30044,"Cannot create the aggregation interface.",error
+network,0x00b30045,"Cannot bind to the Ethernet interface.",error
+network,0x00b30046,"Cannot change Ethernet interface configuration. It is a member of a link aggregation.",error
+network,0x00b30047,"Cannot bring up the VLAN interface.",error
+network,0x00b30048,"Ethernet interface is part of link aggregation.",error
+network,0x00b30049,"One or more links are not in link aggregation mode.",error
+network,0x00b3004a,"Cannot enable link aggregation for the Ethernet interface.",error
+network,0x00b3004b,"Cannot set MTU.",error
+network,0x00b3004c,"Cannot set IP address.",error
+network,0x00b3004d,"Cannot set static route.",error
+network,0x00b3004e,"Cannot define interface isolate.",error
+network,0x00b3004f,"Cannot define the virtual IP address.",error
+network,0x00b30050,"Cannot define MAC address.",error
+network,0x00b30051,"Cannot define Ethernet mode.",error
+network,0x00b30052,"Cannot define VLAN priority.",error
+network,0x00b30053,"Attempted to aggregate an ineligible member.",error
+network,0x00b30054,"Cannot add member to aggregation.",error
+network,0x00b30055,"Invalid interface name.",error
+network,0x00b30056,"Manual mode not supported.",error
+network,0x00b30057,"No virtual IP address for standby control.",error
+network,0x00b30058,"Virtual IP addresses for standby control must be IPv4.",error
+network,0x00b30059,"Cannot disable ICMP.",error
+network,0x00b3005a,"Cannot configure ECN.",error
+network,0x00b3005b,"Cannot configure TCP attempts.",error
+network,0x00b3005c,"Cannot configure ARP interval.",error
+network,0x00b3005d,"Cannot configure ARP attempts.",error
+network,0x00b3005e,"Cannot configure destination routing.",error
+network,0x00b3005f,"Cannot configure interface isolation.",error
+network,0x00b30060,"Cannot configure reverse path filtering.",error
+network,0x00b30061,"Cannot configure TCP window scaling.",error
+network,0x00b30062,"Cannot configure flow control.",error
+network,0x00b30063,"Interface configuration supports only one mode.",error
+network,0x00b30064,"Cannot define static routes or default gateways without primary or secondary IP addresses.",error
+network,0x00b30065,"Cannot define secondary IP address without a primary IP address.",error
+network,0x00b30066,"Cannot configure standby control without a primary IP address.",error
+network,0x00b30067,"Cannot create the vlan interface",error
+network,0x00b30068,"Interface does not exist",error
+network,0x00b60069,"Reconfiguring VLAN",info
+network,0x00b3006a,"Cannot change the state of the kernel interface",error
+network,0x00b3006b,"The GET method is required for WebSocket upgrade.",error
+network,0x00b3006c,"HTTP 1.1 is required for WebSocket upgrade.",error
+network,0x00b3006d,"HTTP 1.1 response version is required for WebSocket upgrade.",error
+network,0x00b3006e,"Cannot configure standby control because it is not enabled in the installation package configuration file, /opt/ibm/datapower/datapower.conf.",error
+network,0x00b3006f,"Cannot configure HTTP/2 support using SSL proxy profile.",error
+network,0x00b30070,"Cannot configure HTTP/2 support without TLS 1.2 protocol.",error
+network,0x00b30071,"Cannot configure HTTP/2 support without a supported cipher.",error
+network,0x00b30072,"Cannot upgrade http to HTTP/2 with another protocol.",error
+network,0x00b30073,"Cannot configure HTTP/2 support with an SSL server profile which has compression enabled.",error
+network,0x00b30074,"Cannot configure HTTP/2 support with an SSL server profile which has renegotiation enabled.",error
+networkfile,0x01f30001,"Invalid syntax for remote NFS mount point.",error
+networkfile,0x01f30002,"Remote NFS mount point required.",error
+networkfile,0x01f30003,"This NFS mount point is broken with an internal error.",error
+networkfile,0x01f30004,"The NFS Client is globally disabled.",error
+networkfile,0x01f30005,"The NFS static mount is down.",error
+networkfile,0x01f60006,"Configuration change(s) pending asynchronous completion.",info
+ntp,0x00e30001,"NTP - Cannot Resolve Server Name",error
+ntp,0x00e30002,"NTP - Invalid Server Address",error
+ntp,0x00e40003,"NTP Resource Error",warning
+ntp,0x00e40004,"NTP Naming Error",warning
+ntp,0x00e40005,"NTP Sending Error",warning
+ntp,0x00e40006,"NTP Receive Error",warning
+ntp,0x00e40007,"NTP Source Error",warning
+ntp,0x00e40008,"NTP Timeout Error",warning
+ntp,0x00e4000a,"No NTP servers are configured",warning
+ntp,0x00e4000b,"NTP error response",warning
+odr,0x03f30001,"Too many ODR Connector Groups. The limit is 64.",error
+odr,0x03f30002,"Too many custom properties. The limit is 256.",error
+odr,0x03f30003,"Too many Group Connectors. The limit is 16.",error
+odr,0x03f30004,"Too many Connector Group properties. The limit is 256.",error
+odr,0x03f30005,"Creation of the ODR library failed. Cleaning up.",error
+odr,0x03f30006,"Initialization of the ODR library failed while configuring properties. Cleaning up.",error
+odr,0x03f30007,"Initialization of the ODR library failed while setting properties. Cleaning up.",error
+odr,0x03f30008,"ODR configuration failed. Could not install connector group",error
+odr,0x03f30009,"ODR configuration failed. Could not start ODR libary.",error
+odr,0x03f3000a,"Update of ODR connector group failed during removal.",error
+odr,0x03f3000b,"Update of ODR connector group failed during insertion.",error
+parser,0x00030001,"Parse error",error
+parser,0x00030002,"Out of memory",error
+parser,0x00030003,"XML parser limits exceeded",error
+parser,0x00030004,"DTD encountered in SOAP context",error
+parser,0x00030005,"Processing instruction encountered in SOAP context",error
+parser,0x00030007,"Parse stopped by caller",error
+parser,0x00030008,"Internal Parsing Error",error
+parser,0x00030009,"Max node size exceeded",error
+parser,0x0003000a,"Forbidden external reference encountered while parsing XML. External DTD/entity references are no longer allowed by default.",error
+parser,0x0003000b,"Out of memory due to max-node-size too small",error
+processing,0x01d30001,"AAA Authentication Failure",error
+processing,0x01d30002,"AAA Authorization Failure",error
+processing,0x01d30003,"Schema Validation Error",error
+processing,0x01d30004,"Reject by SLM",error
+processing,0x01d30005,"Virus Detected",error
+proxy,0x01130002,"HTTP/0.9 not supported",error
+proxy,0x01130003,"Unknown Destination",error
+proxy,0x01130004,"Failed to process request headers",error
+proxy,0x01130005,"Rejected by monitor filter",error
+proxy,0x01130006,"Failed to establish a backside connection",error
+proxy,0x01130007,"Failed to establish backside connection",error
+proxy,0x01130008,"Lost connection with backside server",error
+proxy,0x01130009,"Dynamic backend host not specified",error
+proxy,0x0113000a,"Dynamic target specified unknown SSL proxy",error
+proxy,0x0113000b,"Dynamic target specified invalid SSL proxy",error
+proxy,0x01130010,"Cannot create back port URL",error
+proxy,0x01130011,"Failed to process response headers",error
+proxy,0x01130012,"Malformed version headers for HTTP request",error
+proxy,0x01130013,"Malformed method headers for HTTP request",error
+proxy,0x01130014,"Malformed version headers for HTTP response",error
+proxy,0x01130016,"Request Header Too Long",error
+proxy,0x01130017,"Response Header Too Long",error
+proxy,0x01130018,"Connection terminated before request headers read because of the connection error occurs",error
+proxy,0x01130019,"Connection terminated before response headers read because of the connection error occurs",error
+proxy,0x0113001a,"Malformed headers for HTTP request",error
+proxy,0x0113001b,"Malformed headers for HTTP response",error
+proxy,0x0113001c,"Connection error",error
+proxy,0x0113001d,"Configuration error",error
+proxy,0x0113001e,"Backside URL invalid",error
+proxy,0x0113001f,"No host header",error
+proxy,0x01160020,"handled early",info
+proxy,0x01130021,"Expect header failed",error
+proxy,0x01130022,"Unterminated Submission",error
+proxy,0x01130023,"Via Loop Detected",error
+proxy,0x01130024,"Request did not match allowed-feature list",error
+proxy,0x01130025,"Dynamic Routing Required",error
+proxy,0x01130026,"Query String Length Too Long",error
+proxy,0x01130027,"Too Many HTTP Headers",error
+proxy,0x01130028,"Header Value Too Long",error
+proxy,0x01130029,"Header Name Too Long",error
+proxy,0x0113002a,"More Than One Content-Length",error
+proxy,0x0113002b,"Get Or Head with Content-Length",error
+proxy,0x0113002c,"Request was both length and chunked delimited",error
+proxy,0x0113002d,"Source Protocol Handler Required",error
+proxy,0x0113002e,"AAA required to open WS-Addressing Channel",error
+proxy,0x0113002f,"Two-Way Exchange Pattern Required",error
+proxy,0x01130030,"Reply Handler Required",error
+proxy,0x01130031,"Asynchronous Reply Not Received",error
+proxy,0x01130032,"Asynchronous Reply-To Needed",error
+proxy,0x01130033,"Asynchronous Reply Timed Out",error
+proxy,0x01130034,"Duplicate Message ID",error
+proxy,0x01160035,"Local configuration changed",info
+proxy,0x01130036,"HTTP/1.0 Get attempted with flow control enabled",error
+proxy,0x01130037,"Flow control enabled without streaming",error
+proxy,0x01130038,"HTTP request with Content-Type multipart/form-data attempted with flow control enabled",error
+proxy,0x01130039,"Flow control enabled without Pass-Thru or Non-XML",error
+proxy,0x0113003a,"Flow control enabled without chunked uploads",error
+proxy,0x0113003b,"Connection terminated and no response headers read because of the server terminated the connection",error
+proxy,0x0113003c,"Connection hangup",error
+proxy,0x0113003d,"Connection timed out",error
+proxy,0x0113003e,"The HTTP header is not terminated.",error
+proxy,0x0113003f,"The URI field in HTTP header is missing",error
+proxy,0x01130040,"The Version field in HTTP header is missing",error
+proxy,0x01130041,"The Version number is invalid",error
+proxy,0x01130042,"The Host field in HTTP header is missing",error
+proxy,0x01130043,"Transfer-Encoding is only for HTTP/1.1",error
+proxy,0x01130044,"The order of 'chunked, gzip' is illegal",error
+proxy,0x01130045,"The Content-Length is required",error
+proxy,0x01130046,"Connection hangup when processing the incoming header",error
+proxy,0x01130047,"Network connection error",error
+proxy,0x01130048,"The data format is error",error
+proxy,0x01130049,"Error occurs when initializing the stream",error
+proxy,0x0113004a,"Internal error",error
+proxy,0x0113004b,"Cannot allocate enough memory for the incoming data",error
+proxy,0x0113004c,"Errors when transcoding the data",error
+proxy,0x0113004d,"Read data error",error
+proxy,0x0113004e,"Write data error",error
+proxy,0x0113004f,"Request to Web Application Firewall terminates early",error
+proxy,0x01130050,"Content-Length value is invalid",error
+proxy,0x01130051,"The service does not support WebSockets.",error
+proxy,0x01130052,"The service not support custom methods.",error
+pureapplication,0x03d30001,"The deployment server is unreachable",error
+pureapplication,0x03d30002,"Resource allocation error trying to reach deployment server",error
+pureapplication,0x03d30003,"The deployment data file is missing",error
+pureapplication,0x03d30004,"The deployment configuration request failed",error
+qe,0x04930001,"Persistence storage is not ready to be used.",error
+qe,0x04930002,"Rate threshold is exceeded.",error
+qe,0x04930003,"Connection error of the quota enforcement server",error
+radius,0x00460001,"No configured servers",info
+radius,0x00430002,"RADIUS opstate down due to crypto mode",error
+scc,0x03630001,"TCP connection to remote host could not be opened",error
+scc,0x03630002,"Remote server rejected authentication",error
+scc,0x03630003,"Remote server host key did not match a key in the SSH Client Profile known host list",error
+scc,0x03630004,"Remote server version is not supported",error
+scc,0x03630005,"The SCC component has encountered an internal error",error
+scc,0x03630007,"IPv6 addresses not allowed",error
+scc,0x03630008,"Secure Cloud Connector instance encountered a potential shortage of storage condition",error
+scc,0x03630009,"Secure Cloud Connector instance private key is not valid",error
+scc,0x0363000a,"Secure Cloud Connector instance private key is not in an operational up state",error
+scc,0x0363000b,"Remote host name could not be resolved",error
+scc,0x0363000c,"Remote server protocol version is not supported",error
+scc,0x0363000d,"Remote server connection terminated",error
+scc,0x0363000f,"Service startup failure",error
+scc,0x03630011,"SSH Client Connection not configured for Secure Cloud Connector",error
+scc,0x03630012,"SSH Client Profile is not in an operational up state",error
+scc,0x03630013,"Network Interface down",error
+scc,0x036303ee,"Remote tunnel connection timed out",error
+scc,0x036303f6,"Remote tun device creation failed",error
+scc,0x036303f8,"SSH connection failure",error
+scc,0x036303fc,"Remote server connection terminated",error
+"self_balancing",0x03430001,"ipvsadm command failed",error
+SFTP,0x03230001,"Invalid key type.",error
+SFTP,0x03230002,"Too many host keys.",error
+SFTP,0x03230003,"File does not exist.",error
+SFTP,0x03230004,"No sufficient permissions to perform operation.",error
+SFTP,0x03230005,"SFTP: Failed to perform requested operation",error
+SFTP,0x03230006,"Bad formatted SFTP packet",error
+SFTP,0x03230007,"SSH FTP Operation not supported.",error
+SFTP,0x03230008,"Virtual directory missing leading slash",error
+SFTP,0x03230009,"Virtual directory has trailing slash",error
+SFTP,0x0323000a,"Virtual directory not nested",error
+SFTP,0x0323000b,"Duplicate virtual directory name",error
+SFTP,0x0323000c,"Directory component . (dot)",error
+SFTP,0x0323000d,"Directory component .. (dot-dot)",error
+SFTP,0x0323000e,"Default Directory does not exist.",error
+sgclient,0x04830001,"Invalid or missing Secure Gateway client configuration",error
+sgclient,0x04830002,"Secure Gateway client configuration accepted pending activation",error
+sgclient,0x04830003,"Invalid or unrecognized Gateway ID",error
+sgclient,0x04830004,"Invalid or unrecognized Security Token",error
+sgclient,0x04830005,"Security Token is required for this Secure Gateway Client",error
+sgclient,0x04830006,"Security Token must not be specified for this Secure Gateway Client",error
+sidecar,0x02d30001,"Failed to initialize the SideCar communications channel",error
+sidecar,0x02d30002,"Failed to initialize the SideCar stream communications",error
+sidecar,0x02d30003,"Failed to initialize the SideCar process",error
+sidecar,0x02d30004,"Requested interface is down or unconfigured",error
+sidecar,0x02d30005,"Runtime SideCar process failure",error
+sidecar,0x02d30006,"Request queue error: SideCar deletion pending",error
+sidecar,0x02d30007,"Request queue error: queue full",error
+sidecar,0x02d30008,"Request queue error: out of memory",error
+sidecar,0x02d30009,"Request could not execute: insufficient resources",error
+sidecar,0x02d3000a,"Network Error",error
+sidecar,0x02d3000b,"Failed to initialize the SideCar container process",error
+sidecar,0x02d3000c,"Watchdog failed to communicate with an internal guest component",error
+sidecar,0x02d3000d,"Failed to communicate configuration state with an internal guest component",error
+sidecar,0x02d3000e,"Failed to communicate DNS configuration state with an internal guest component",error
+sidecar,0x02d3000f,"Failed to communicate opstate down with an internal guest component",error
+sidecar,0x02d30010,"Failed to communicate opstate up with an internal guest component",error
+sidecar,0x02d30011,"Failed to communicate commit with an internal guest component",error
+sidecar,0x02d30012,"Could not create tap interface",error
+sidecar,0x02d30013,"Could not delete tap interface",error
+sidecar,0x02d30014,"Could not start tap interface",error
+sidecar,0x02d30015,"Could not bring down tap interface",error
+sidecar,0x02d30016,"Internal network error",error
+sidecar,0x02d30017,"Error setting up tap interface",error
+sidecar,0x02d50018,"Failed to establish the connection to an internal guest component",notice
+sidecar,0x02d30019,"Failed to communicate action event with an internal guest component",error
+sidecar,0x02d3001a,"Failed to communicate status request with an internal guest component",error
+sidecar,0x02d3001b,"Failed to communicate error report request with an internal guest component",error
+sidecar,0x02d3001c,"Internal guest request returned an error code",error
+sidecar,0x02d3001d,"Action failed, examine the logs for more information",error
+sidecar,0x02d3001e,"Task terminated after no response",error
+sidecar,0x02d6001f,"Task startup process pending",info
+slm,0x02430001,"Message throttled",error
+snmp,0x00760001,"SNMP agent is not active",info
+snmp,0x00730002,"Cannot add port",error
+snmp,0x00730003,"Cannot send trap",error
+snmp,0x00730004,"SNMP agent down due to SNMPv3 user credentials with banned algorithms",error
+sql,0x01e30001,"Restarting DB connection failed.",error
+sql,0x01e30002,"Starting DB connection failed.",error
+sql,0x01e30003,"DB connection username missing.",error
+sql,0x01e30004,"Either DB connection password or password alias is required",error
+sql,0x01e30005,"Invalid DB configuration template.",error
+sql,0x01e30006,"No database type configured.",error
+sql,0x01e30007,"Invalid host configured.",error
+sql,0x01e30008,"Could not set device host name",error
+sql,0x01e30009,"Data Source ID missing",error
+sql,0x01e3000a,"Data Source is currently not available",error
+sql,0x01e3000b,"Invalid configuration parameter",error
+ssh,0x00850001,"Starting SSH daemon",notice
+ssh,0x00830002,"Could not start SSH daemon",error
+ssh,0x00830003,"Could not communicate with SSH daemon",error
+ssl,0x00f30001,"Illegal filename",error
+ssl,0x00f30002,"File is unreadable",error
+ssl,0x00f30003,"File is not in a known format",error
+ssl,0x00f30004,"File read error",error
+ssl,0x00f30005,"File has invalid NotBefore field",error
+ssl,0x00f30006,"File is not yet valid",error
+ssl,0x00f30007,"File has invalid NotAfter field",error
+ssl,0x00f30008,"File is expired",error
+ssl,0x00f30009,"Mismatched public/private key pair",error
+ssl,0x00f3000b,"No keys, sskeys, or certificates specified",error
+ssl,0x00f3000c,"Invalid SSL Proxy Profile type",error
+ssl,0x00f3000d,"SSL Proxy Profile context init error",error
+ssl,0x00f3000e,"No key object found",error
+ssl,0x00f3000f,"Unable to make a valid certificate from input file",error
+ssl,0x00f30010,"Crypto Key encrypted using banned algorithm and cannot be decrypted",error
+ssl,0x00f30011,"Crypto Key is too weak (< 1024 bits) for current crypto mode",error
+ssl,0x00f30012,"Crypto Certificate encrypted using banned algorithm and cannot be decrypted",error
+ssl,0x00f30013,"Crypto Certificate is too weak (< 1024 bits) for current crypto mode",error
+ssl,0x00f30014,"Invalid cipher suite configuration for SSL client profile",error
+ssl,0x00f30015,"Invalid identification credentials for SSL client profile",error
+ssl,0x00f30016,"Invalid cipher suite configuration for SSL server profile",error
+ssl,0x00f30017,"Invalid identification credentials for SSL server profile",error
+ssl,0x00f30018,"Missing identification credentials in SSL server profile",error
+ssl,0x00f30019,"Missing validation credentials in SSL server profile",error
+ssl,0x00f3001a,"Missing validation credentials in SSL client profile",error
+ssl,0x00f3001b,"Missing SSL server profile in SSL SNI server profile",error
+ssl,0x00f3001c,"Missing SSL Host to SSL Server Name Mapping in SSL SNI server profile",error
+ssl,0x00f3001d,"Invalid elliptic curve configuration for SSL Server Profile",error
+ssl,0x00f3001e,"Invalid elliptic curve configuration for SSL Client Profile",error
+stanzacfg,0x01730001,"Out of memory",error
+stanzacfg,0x01740002,"Illegal argument to API",warning
+stanzacfg,0x01760003,"Stanza or entry not found",info
+status,0x00930001,"No registered provider",error
+status,0x00930002,"Duplicate provider",error
+status,0x00930003,"Cannot open status consumer",error
+status,0x00930004,"Invalid class",error
+status,0x00930005,"Invalid index",error
+status,0x00930006,"Cannot fetch status data",error
+status,0x00960007,"No more data",info
+status,0x00960008,"Searching data",info
+status,0x00930009,"Status data is not available",error
+status,0x0094000a,"Statistics disabled",warning
+storage,0x02a30001,"Directory property must be specified",error
+storage,0x02a30002,"Storage volume has corrupt file system",error
+storage,0x02a30003,"Cannot make storage volume accessible",error
+storage,0x02a30004,"Error making storage volume inaccessible",error
+storage,0x02a30005,"No device to mount.",error
+storage,0x02a30006,"Could not read volume information.",error
+storage,0x02a30007,"Could not write volume information.",error
+storage,0x02a30008,"Volume enabled during write caching modification.",error
+stylepolicy,0x01060001,"Malformed PIPEline: first action reads from PIPE",info
+stylepolicy,0x01060002,"Malformed PIPEline: PIPE input not preceded by PIPE output",info
+stylepolicy,0x01060003,"Malformed PIPEline: PIPE output not followed by PIPE input",info
+stylepolicy,0x01060004,"Malformed PIPEline: last action outputs to PIPE",info
+stylepolicy,0x01030005,"No actions configured",error
+stylepolicy,0x01070006,"Uninitialized action",debug
+system,0x01a40001,"Throttling connections due to low memory",warning
+system,0x01a30002,"Restart due to low memory",error
+system,0x01a30003,"Restart due to resource shortage timeout",error
+system,0x01a50004,"Memory usage recovered above threshold",notice
+system,0x01a40005,"Throttling connections due to low temporary file space",warning
+system,0x01a30006,"Restart due to low temporary file space",error
+system,0x01a50007,"Temporary file space recovered above threshold",notice
+system,0x01a40008,"Throttling connections due to low number of free ports",warning
+system,0x01a30009,"Restart due to port shortage",error
+system,0x01a5000a,"Number of free ports recovered",notice
+system,0x01a3000b,"Restart due to XML Names prefix shortage",error
+system,0x01a3000c,"Restart due to XML Names namespace shortage",error
+system,0x01a3000d,"Restart due to XML Names local name shortage",error
+system,0x01a2000e,"Installed battery is nearing end of life.",critical
+system,0x01a6000f,"Installed battery longevity test passed.",info
+system,0x01a30010,"Invalid URL",error
+system,0x01a30011,"Invalid virtual file system",error
+system,0x01a30012,"File not found",error
+system,0x01a30013,"Buffer too small",error
+system,0x01a30014,"I/O error",error
+system,0x01a30015,"Out of memory",error
+system,0x01a10016,"Number of free XML Names is very low.",alert
+system,0x01a30017,"Restart due to low file descriptor",error
+system,0x01a40018,"Throttling due to low number of available file descriptors",warning
+system,0x01a5001a,"Number of available file descriptors recovered",notice
+system,0x01a2001b,"The RAID battery is not detected.",critical
+system,0x01a2001c,"The RAID battery needs to be replaced.",critical
+system,0x01a2001d,"The RAID battery temperature is high.",critical
+system,0x01a2001e,"The RAID battery voltage is low.",critical
+system,0x01a3001f,"Error starting command execution.",error
+system,0x01a30020,"Command terminated with error(s).",error
+system,0x01a30021,"Cannot find the RAID controller in the system.",error
+system,0x01a30022,"The RAID controller is in the faulted state.",error
+system,0x01a20023,"One of RAID physical disk(s) has error(s).",critical
+tam,0x01630001,"Restarting ISAM client failed.",error
+tam,0x01630002,"Starting ISAM client failed.",error
+tam,0x01630003,"Configuration template missing.",error
+tam,0x01630004,"Missing or invalid SSL key file.",error
+tam,0x01630005,"Invalid SSL key stash file.",error
+tam,0x01630006,"Missing SSL key stash file.",error
+tam,0x01630007,"Invalid configuration template.",error
+tam,0x01630008,"Missing or invalid LDAP SSL key file.",error
+tam,0x01630009,"ISAM is not licensed for this device",error
+tam,0x0163000a,"ISAM firmware not found.",error
+tam,0x0163000b,"Internal error scheduling ISAM file creation",error
+tam,0x0163000c,"ISAM client restart in progress",error
+tam,0x0163000d,"ISAM client provided with bad configuration parameter",error
+tam,0x0163000e,"ISAM libraries failed to initialize.",error
+tam,0x0166000f,"ISAM client restart pending.",info
+tfim,0x02830001,"Out of memory",error
+tfim,0x02830002,"TFIM server name is missing.",error
+tfim,0x02830003,"TFIM server port is missing.",error
+tfim,0x02830004,"TFIM service applies-to field is missing.",error
+tfim,0x02830005,"TFIM server Compatible Mode is missing.",error
+tfim,0x02830006,"Missing TFIM Request Token Format.",error
+tfim,0x02830007,"Missing Stylesheet specified for custom TFIM Request Token Format.",error
+tfim,0x02830008,"Invalid Stylesheet specified for custom TFIM Request Token Format.",error
+tfim,0x02830009,"Invalid Stylesheet specified for custom TFIM Response Token Format.",error
+tfim,0x0283000a,"Cannot access local filestore information for TFIM.",error
+tfim,0x0283000b,"Cannot convert relative location of style sheet to the absolute location on the box.",error
+tfim,0x0283000c,"TFIM server Endpoint Type is missing.",error
+"tibco_ems",0x02330001,"Tibco EMS process died.",error
+"tibco_ems",0x02330002,"Unknown Tibco EMS server.",error
+"tibco_ems",0x02330003,"Lost connection to Tibco EMS server.",error
+"tibco_ems",0x02330004,"Wrong number of arguments passed to initialize Tibco EMS connection.",error
+"tibco_ems",0x02330005,"Failed to establish connection to Tibco EMS server",error
+"tibco_ems",0x02330006,"Maximum amount of Tibco EMS Load Balanced servers has been exceeded",error
+"tibco_ems",0x02330007,"Tibco EMS commit operation has failed",error
+timezone,0x04030001,"Time zone name is not valid.",error
+timezone,0x04030002,"Internal error processing a time zone request.",error
+wasjms,0x02530001,"WebSphere JMS process died.",error
+wasjms,0x02530002,"Unknown WebSphere JMS server.",error
+wasjms,0x02530003,"Lost connection to WebSphere JMS server.",error
+wasjms,0x02530004,"Wrong number of arguments passed to initialize WebSphere JMS connection.",error
+wasjms,0x02530005,"Failed to establish connection to WebSphere JMS server",error
+wasjms,0x02530006,"WebSphere JMS commit operation has failed",error
+wasjms,0x02530007,"The selected WebSphere JMS SSL Cipher is not supported for the specified protocol option",error
+wcc,0x03330001,"Invalid Deployment Manager address or host name",error
+webappfirewall,0x02030001,"No request security policy matched",error
+webappfirewall,0x02030002,"No response security policy matched",error
+webappfirewall,0x02030003,"HTTP version in response not allowed",error
+webappfirewall,0x02030004,"HTTP response code in response not allowed",error
+webappfirewall,0x02030005,"HTTP Body Size Too Small",error
+webappfirewall,0x02030006,"HTTP Body Size Too Large",error
+webappfirewall,0x02030007,"HTTP Content Type Unacceptable",error
+webappfirewall,0x02030008,"Name-Value Max Attributes Exceeded",error
+webappfirewall,0x02030009,"Name-Value Total Size Exceeded",error
+webappfirewall,0x0203000a,"Name-Value Name Size Attribute Exceeded",error
+webappfirewall,0x0203000b,"Name-Value Value Size Attributes Exceeded",error
+webappfirewall,0x0203000c,"Name-Value Value Expression Not Allowed",error
+webappfirewall,0x0203000d,"Name-Value Name Not Found",error
+webappfirewall,0x0203000e,"Request Header Method Not Allowed",error
+webappfirewall,0x0203000f,"Request Header Version Not Allowed",error
+webappfirewall,0x02030010,"Request Body Size Too Small",error
+webappfirewall,0x02030011,"Request Body Size Too Large",error
+webappfirewall,0x02030012,"ACL Violation",error
+webappfirewall,0x02030013,"SSL Requirement Not Met",error
+webappfirewall,0x02030014,"SSL Requirement Not Met",error
+webappfirewall,0x02030015,"AAA violation",error
+webappfirewall,0x02030016,"Request Header Profile Not Satisfied",error
+webappfirewall,0x02030017,"Query String Profile Not Satisfied",error
+webappfirewall,0x02030018,"URI Too Long",error
+webappfirewall,0x02030019,"URI contained ..",error
+webappfirewall,0x0203001a,"URI contained .exe",error
+webappfirewall,0x0203001b,"URI contained unicode",error
+webappfirewall,0x0203001c,"Request Content Type Prohibited",error
+webappfirewall,0x0203001d,"Query String Policy Not Satisfied",error
+webappfirewall,0x0203001e,"Request URI Fragment Policy Not Satisfied",error
+webappfirewall,0x0203001f,"Request Not A Valid Starting Point",error
+webappfirewall,0x02030020,"Session Expired",error
+webappfirewall,0x02030021,"Session Cookie Forged",error
+webappfirewall,0x02030022,"Cookie Policy Not Satisfied",error
+webappfirewall,0x02030023,"Cookie Name/Value Profile Not Satisfied",error
+webappfirewall,0x02030024,"Cookie Sign/Encrypt Forged",error
+webappfirewall,0x02030025,"URL-Encoded request body policy violated",error
+webappfirewall,0x02030026,"multipart-form-data body policy violated",error
+webappfirewall,0x02030027,"XSS Signature Detected",error
+webappfirewall,0x02030028,"SQL Signature Detected",error
+webappfirewall,0x02030029,"Error Monitor Blackout",error
+webappfirewall,0x0203002a,"Error Monitor Blackout",error
+webappfirewall,0x0203002b,"Error Monitor Blackout",error
+webappfirewall,0x0203002c,"Too many concurrent connections",error
+webappfirewall,0x0203002d,"XML Manager Missing",error
+webappfirewall,0x0203002f,"Remote Address Required",error
+webappfirewall,0x02030030,"Local Address Required",error
+webappfirewall,0x02030031,"Invalid Remote Address",error
+webappfirewall,0x02030032,"No Admission Satisfaction Policy found in Request Maps",error
+webappfirewall,0x02030033,"SQL Injection Patterns File Not Found",error
+webappfirewall,0x02030034,"XSS Patterns File Not Found",error
+webtokenservice,0x03b30001,"XML Manager Missing",error
+webtokenservice,0x03b30002,"End Point Address Required",error
+webtokenservice,0x03b30003,"End Point Policy Required",error
+webtokenservice,0x03b30004,"Missing SSL Server Proxy Profile for Endpoint",error
+webtokenservice,0x03b30005,"Invalid SSL Server Proxy Profile for Endpoint",error
+webtokenservice,0x03b30006,"Missing SSL Server Profile for Endpoint",error
+webtokenservice,0x03b30007,"Missing SSL SNI Server Profile for Endpoint",error
+webtokenservice,0x03b30008,"Processing policy is required",error
+wsgw,0x01930001,"Local copy of WSDL not found",error
+wsgw,0x01950002,"Generating schema",notice
+wsmagent,0x01830001,"Bad Spooler",error
+wsmagent,0x01830002,"Already started",error
+wsmagent,0x01830003,"Cannot open subscriber",error
+wsmagent,0x01830004,"WSM Agent not up",error
+wsmagent,0x01830005,"Subscription exists",error
+wsmagent,0x01830006,"Invalid damping interval",error
+wsmagent,0x01830007,"Push destinaton not provided",error
+wsmagent,0x01830008,"Push processor file does not exist",error
+wsmagent,0x01830009,"XML Manager is disabled",error
+wsrm,0x02930001,"Cannot allocate WS-RM state block",error
+wsrm,0x02960002,"WS-RM CreateSequence rejected, not enabled",info
+wsrm,0x02960003,"WS-RM CreateSequence rejected, too many",info
+wsrm,0x02930004,"WS-RM CreateSequence rejected, identifier not unique",error
+wsrm,0x02930006,"WS-RM CreateSequence rejected, internal error",error
+wsrm,0x02960007,"WS-RM CreateSequence rejected, internal error",info
+wsrm,0x02960008,"WS-RM CreateSequence rejected, Offer without Identifier",info
+wsrm,0x02960009,"WS-RM CreateSequence rejected, Offer without Endpoint",info
+wsrm,0x0296000a,"WS-RM CreateSequence rejected, negative Expires",info
+wsrm,0x0296000b,"WS-RM CreateSequence rejected, invalid Expires",info
+wsrm,0x0296000c,"WS-RM message was received for an unknown sequence",info
+wsrm,0x0296000d,"WS-RM message was received for a closed sequence",info
+wsrm,0x0296000e,"WS-RM message was received for a terminating sequence",info
+wsrm,0x0296000f,"WS-RM message was received with too high a sequence number",info
+wsrm,0x02970010,"WS-RM message was received with a duplicate message number",debug
+wsrm,0x02960011,"WS-RM message was received with an invalid acknowledgement",info
+wsrm,0x02960012,"SOAP message was received without required WS-RM header",info
+wsrm,0x02960013,"WS-RM message received with a message number that is not InOrder",info
+wsrm,0x02960014,"WS-RM outgoing CreateSequence canceled, too many",info
+wsrm,0x02930015,"WS-RM internal error",error
+wsrm,0x02960016,"WS-RM Source Sequence disabled for request processing",info
+wsrm,0x02960017,"WS-RM Source Sequence disabled for response processing",info
+wsrm,0x02960018,"WS-RM creating Source Sequence for data message",info
+wsrm,0x02960019,"WS-RM waiting to create Source Sequence for data message",info
+wsrm,0x0293001a,"WS-RM Source retransmit queue too long",error
+wsrm,0x0296001b,"WS-RM CreateSequence rejected, unreachable AcksTo",info
+wsrm,0x0293001c,"WS-RM CreateSequence rejected, invalid SSL session",error
+wsrm,0x0296001d,"WS-ReliableMessaging message received with out-of-range message number",info
+wsrm,0x0296001e,"WS-ReliableMessaging received too many out-of-order messages",info
+wsrm,0x0293001f,"WS-RM Source received Sequence Terminated Fault",error
+wsrm,0x02930020,"WS-RM Source received Unknown Sequence Fault",error
+wsrm,0x02930021,"WS-RM Source received Message Number Rollover Fault",error
+wsrm,0x02930022,"WS-RM Source received Create Sequence Refused Fault",error
+wsrm,0x02930023,"WS-RM Source received Sequence Closed Fault",error
+wsrm,0x02930024,"WS-RM Source CreateSequence refused due to unsupported UsesSequenceSSL",error
+wxs,0x04730001,"The eXtreme Scale command failed.",error
+wxs,0x04730002,"An internal error occurred when processign an eXtreme Scale command.",error
+wxs,0x04730003,"The eXtreme Scale grid configuration is down or disabled.",error
+xc10,0x03c30001,"XC10 appliance unavailable in the collective",error
+xc10,0x03c30002,"The XC10 command failed. See log for details.",error
+xc10,0x03c30003,"The response from the XC10 appliance could not be parsed.",error
+xc10,0x03c30004,"There was an internal error executing XC10 command.",error
+xc10,0x03c30005,"The specified XC10 action was unknown.",error
+xc10,0x03c30006,"The XC10 grid configuration is down or disabled.",error
+xc10,0x03c30007,"An SSL proxy is required for this action.",error
+xc10,0x03c30008,"A shared secret encryption key is required for this configuration.",error
+xc10,0x03c30009,"An encryption algorithm is required for this configuration.",error
+xc10,0x03c3000a,"A hash key obfuscation algorithm is required for this configuration.",error
+xc10,0x03c3000b,"Workload Management MUST be off in the collective for this configuration.",error
+xc10,0x03c3000c,"Session Affinity MUST be disabled in the collective for this configuration.",error
+xc10,0x03c3000d,"A password (directly configured or via an alias) is required.",error
+xs,0x00d30001,"Message is not a SOAP 1.1 or 1.2 document",error
+xs,0x00d30002,"Invalid SOAP envelope",error
+xs,0x00d30003,"Rejected by filter; SOAP fault sent",error
+xs,0x00d30004,"Rejected by filter; error reply sent",error
+xs,0x00d30005,"Message too large",error
+xs,0x00d30006,"SOAP envelope/body validation error.",error
+xs,0x00d30007,"Rejected by policy.",error
+xsljit,0x00230001,"Dynamic Execution Error",error
+xsljit,0x00230002,"Static Compilation Error",error
+xsljit,0x00230003,"Unable to allocate execution resources",error
+xsljit,0x00230006,"Output Error - Execution Cancelled",error
+xsljit,0x00230009,"Error in regular expression processing",error
+zosnss,0x02e30001,"Host Resolution Error",error
+zosnss,0x02e30002,"Cannot resolve host",error
+zosnss,0x02e30003,"Cannot Connect to Host",error
+zosnss,0x02e30004,"Not connected to NSS server",error
+zosnss,0x02e30005,"Authentication failed",error
+zosnss,0x02e30006,"Communication Failed",error
+zosnss,0x02e30007,"Not authorized",error
+zosnss,0x02e30008,"Premature end-of-stream",error
+zosnss,0x02e30009,"Already connected",error
+zosnss,0x02e6000a,"Handshake in progress",info
+zosnss,0x02e3000b,"Authorization failed",error
+zosnss,0x02e6000c,"TCP connection in progress",info
+zosnss,0x02e6000d,"TCP connection retry",info
+zosnss,0x02e6000e,"Handshake with NSS Server failed",info
+zosnss,0x02e3000f,"Invalid registration parameters",error
+zosnss,0x02e30010,"Invalid NSS call parameter",error
+zosnss,0x02e30011,"client exists",error
+zosnss,0x02e30012,"ZOS-NSS generic error",error
+zosnss,0x02e30013,"Referenced z/OS NSS Client does not exist",error
+zosnss,0x02e30014,"Referenced z/OS NSS Client connection is down",error
+zosnss,0x02e30015,"Failed to retrieve SAF certificate",error
+zosnss,0x02e30016,"Failed to retrieve SAF key",error
+unknown,0x03e3000b,error,error
+unknown,0x03e3000a,"CA certificate import error",error
+unknown,0x03e30009,"ILMT Agent settings corrupted",error
+unknown,0x03e30008,"A setting provided is invalid",error
+unknown,0x03e30007,"Could not import certificate for ILMT Agent",error
+unknown,0x03e30006,"Could not restart ILMT Agent",error
+unknown,0x03e30005,"Could not clone ILMT Agent",error
+unknown,0x03e30002,"Security certificate not found",error
+unknown,0x03930013,"Cannot load WAXHN URL",error
+unknown,0x03930012,"Invalid bridged application",error
+unknown,0x03930011,"An internal routine failed during the file verification process",error
+unknown,0x03930010,"Invalid reserved or guest ip address",error
+unknown,0x0393000f,"WAXHN not activated",error
+unknown,0x0393000e,"Failed to initialize cache on image",error
+unknown,0x0393000d,"Failed to add cache to image",error
+unknown,0x0393000c,"Failed to open network configuration on image",error
+unknown,0x0393000b,"Failed to make network configuration visible on image",error
+unknown,0x0393000a,"Failed to initialize network configuration on image",error
+unknown,0x03930009,"Failed to add network configuration to image",error
+unknown,0x03930008,"Failed to create configuration image",error
+unknown,0x03930007,"An internal routine failed during the decompression process",error
+unknown,0x03930006,"An internal routine failed during the extraction process",error
+unknown,0x03930004,"Object is up",error
+unknown,0x03930003,"RAID not configured",error
+unknown,0x03930002,"Activate Failed",error
+unknown,0x03930001,"Activate In Progress",error
+unknown,0x03920005,"Failed to provision service",critical
+unknown,0x01430001,"dpcatch used without a try",error
+unknown,0x01240001,"Destination Buffer Full",warning
+unknown,0x01130015,"Malformed method headers for HTTP response",error
+unknown,0x0113000f,"Unable to connect to SSL on back port",error
+unknown,0x0113000e,"DNS lookup failed",error
+unknown,0x0113000d,"Cannot create dynamic SSL context",error
+unknown,0x0113000c,"Dynamic target needs SSL",error
+unknown,0x01130001,"proxy internal error",error
+unknown,0x00e40009,"NTP Unknown event",warning
+unknown,0x00b3001a,"Default IPv6 Gateway is not an IPv6 address.",error
+unknown,0x00b30016,"Too many Standby Controls",error
+unknown,0x00b30015,"Cannot set IP address when using DHCP",error
+unknown,0x00b30014,"Duplicate IP address",error
+unknown,0x00b30013,"Could not destroy VLAN interface",error
+unknown,0x00b30012,"Could not create VLAN interface",error
+unknown,0x00b30011,"Cannot find VLAN Identifier on interface",error
+unknown,0x00b30010,"Duplicate VLAN Identifier on interface",error
+unknown,0x00b3000f,"Static route has next hop not on local network",error
+unknown,0x00b3000e,"Static route has illegal next hop of 0.0.0.0",error
+unknown,0x00b3000d,"Invalid VLAN Identifier",error
+unknown,0x00b3000c,"Default gateway not on local network",error
+unknown,0x00b30006,"Cannot modify relax-interface-isolation setting",error
+unknown,0x00b30005,"Cannot modify destination routing setting",error
+unknown,0x00b30003,"Cannot modify ECN setting",error
+unknown,0x00b30001,"Cannot modify ICMP setting",error
+unknown,0x0033000f,"Cannot find AdminState property",error
+unknown,0x0033000a,"Cannot generate configuration notification",error
+unknown,0x00330006,"Cannot create configuration object",error
+unknown,0x00270008,"Streaming XPath match succeeded",debug
+unknown,0x00230007,"Type error in XACML policy",error
+unknown,0x00230005,"Not in a coroutine",error
+unknown,0x00230004,"Execution canceled",error
+unknown,0x00130001,"Internal error",error
+unknown,0x00030006,"Malformed tree structure",error
