@@ -7,8 +7,15 @@ Welcome to IBM DataPower Add-on for Splunk's documentation!
 ===========================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
+   
+   introduction
+   requirements
+   installation
+   configuration
+   troubleshooting
+   support
 
 
 
