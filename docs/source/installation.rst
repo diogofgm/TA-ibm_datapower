@@ -1,5 +1,5 @@
 Installation
-------------
+============
 
 Install the add-on on: 
 Search Heads - The add-on contains search time extractions 
