@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to IBM DataPower Add-on for Splunk's documentation!
-===========================================================
+IBM DataPower Add-on for Splunk
+===============================
 
 .. toctree::
    :maxdepth: 1

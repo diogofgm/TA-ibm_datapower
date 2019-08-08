@@ -1,3 +1,5 @@
 local/
-resources.md
-loca.meta
+local.meta
+.vscode/
+addon_builder.conf
+build/
