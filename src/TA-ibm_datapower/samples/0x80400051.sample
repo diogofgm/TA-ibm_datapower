@@ -1,0 +1,1 @@
+##TIMESTAMP## ##DEVICE## [0x80400051][system][debug] trans(143): cpu usage: ##CPU10S##%(10 sec) ##CPU1M##%(1 min) ##CPU10M##%(10 min) ##CPU1H##%(1 hour) ##CPU1D##%(1 day)
