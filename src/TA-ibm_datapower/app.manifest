@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "2.0.0", 
+  "info": {
+    "title": "IBM DataPower Add-on for Splunk", 
+    "id": {
+      "group": null, 
+      "name": "TA-ibm_datapower", 
+      "version": "0.1.1"
+    }, 
+    "author": [
+      {
+        "name": "Diogo Silva", 
+        "email": "diogo.silva@devbusters.com", 
+        "company": "Devbusters"
+      }
+    ], 
+    "releaseDate": null, 
+    "description": "IBM DataPower Add-on for Splunk", 
+    "classification": {
+      "intendedAudience": null, 
+      "categories": [], 
+      "developmentStatus": null
+    }, 
+    "commonInformationModels": null, 
+    "license": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }, 
+    "privacyPolicy": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }, 
+    "releaseNotes": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }
+  }, 
+  "dependencies": null, 
+  "tasks": null, 
+  "inputGroups": null, 
+  "incompatibleApps": null, 
+  "platformRequirements": null, 
+  "supportedDeployments": [
+    "_standalone", 
+    "_distributed"
+  ], 
+  "targetWorkloads": null
+}
