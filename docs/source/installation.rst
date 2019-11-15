@@ -3,7 +3,7 @@ Installation
 ============
 
 Install the IBM DataPower Add-on for Splunk
-==================================
+===========================================
 - Get the IBM DataPower Add-on for Splunk by downloading it from `Splunkbase`_ or browsing to it using the app browser within Splunk Web.
 - Determine where and how to install this add-on in your deployment, using the tables on this page.
 - Perform any prerequisite steps before installing, if required and specified in the tables below.
@@ -78,7 +78,7 @@ For a walkthrough of the installation procedure, follow the link that matches yo
 
 
 
-.. _Splunkbase: https://splunkbase.splunk.com/app/0000/
+.. _Splunkbase: https://splunkbase.splunk.com/app/4662/
 .. _Where to install Splunk add-ons: http://docs.splunk.com/Documentation/AddOns/released/Overview/Wheretoinstall
 .. _Installing add-ons: http://docs.splunk.com/Documentation/AddOns/released/Overview/Installingadd-ons
 
