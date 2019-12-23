@@ -5,7 +5,7 @@ Release Notes
 v0.1.2 -
 --------
 - Improved field extractions on several sourcetypes
-- Improved Splunk CIM compliance for change, web and authentication
+- Improved Splunk CIM compliance for change, web and authentication domains
 
 
 v0.1.1 - December 2019
