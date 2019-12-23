@@ -2,6 +2,7 @@
 local/
 local.meta
 addon_builder.conf
+*.spl
 
 # MacOS Files
 .DS_Store
