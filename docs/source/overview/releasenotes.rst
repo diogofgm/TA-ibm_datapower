@@ -20,11 +20,13 @@ Fixed issues
 ------------
 Version 1.0.0 of the IBM DataPower Add-on for Splunk contains the following fixed issues.
 
-Date resolved	Issue number	Description
+.. csv-table::
+   :file: csv/fixedissues.csv
 
 
 Known issues
 ------------
 Version 1.0.0 of the IBM DataPower Add-on for Splunk has the following known issues.
 
-Date filed	Issue number	Description
+.. csv-table::
+   :file: csv/knownissues.csv
