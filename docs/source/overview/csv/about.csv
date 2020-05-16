@@ -1,0 +1,6 @@
+"Version","1.0.0"
+"Vendor Products","IBM DataPower 7.5 or newer"
+"Splunk software versions","7.1 or later"
+"Platforms","Platform independent"
+"CIM","4.7 or later"
+"Visible in Splunk Web","No. This add-on contains no dashboards."
