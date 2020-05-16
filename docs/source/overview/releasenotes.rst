@@ -8,7 +8,7 @@ About this release
 Version 1.0.0 of the IBM DataPower Add-on for Splunk is compatible with the following software, CIM versions, and platforms.
 
 .. csv-table:: Table Title
-   :file: resources/csv/releasenotes.csv
+   :file: /resources/csv/releasenotes.csv
    :widths: 30, 70
 
 New features
