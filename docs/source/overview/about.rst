@@ -2,14 +2,8 @@
 About the IBM DataPower Add-on for Splunk
 =========================================
 
-.. list-table::
-   
-   * - Version
-     - 0.1.1
-   * - Vendor Products
-     - IBM DataPower 7.5 or newer
-   * - Visible in Splunk Web
-     - No. This add-on contains no dashboards.
+.. csv-table::
+   :file: csv/about.csv
 
 The IBM DataPower Add-on for Splunk integrates Remedy brings field extractions to Splunk platform. This add-on does not collect any data.
 
