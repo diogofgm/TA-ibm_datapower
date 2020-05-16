@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = u'IBM DataPower Add-on for Splunk'
-copyright = u'2019, Diogo Silva'
+copyright = u'2020, Diogo Silva'
 author = u'Diogo Silva'
 
 # The short X.Y version
-version = u'0.1'
+version = u'1.0'
 # The full version, including alpha/beta/rc tags
-release = u'0.1.1'
+release = u'1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
