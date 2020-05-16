@@ -1,6 +1,6 @@
-==========================================================================
-Hardware and software requirements for the IBM DataPower Add-on for Splunk
-==========================================================================
+==================================
+Hardware and software requirements
+==================================
 
 To install and configure the IBM DataPower Add-on for Splunk, you must have the admin role in the Splunk platform.
 
