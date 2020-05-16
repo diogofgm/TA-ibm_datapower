@@ -7,6 +7,7 @@ IBM DataPower Add-on for Splunk
 ===============================
 
 .. toctree::
+   :glob:
    :maxdepth: 1
    :caption: Contents:
    
