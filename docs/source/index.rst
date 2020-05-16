@@ -8,6 +8,7 @@ IBM DataPower Add-on for Splunk
 
 .. toctree::
    :glob:
+   :maxdepth: 0
    :caption: Oveview:
 
    overview/about
@@ -17,24 +18,28 @@ IBM DataPower Add-on for Splunk
 
 .. toctree::
    :glob:
+   :maxdepth: 0
    :caption: Installation:
    
    instalation/*
 
 .. toctree::
    :glob:
+   :maxdepth: 0
    :caption: Configuration:
    
    configuration/*
 
 .. toctree::
    :glob:
+   :maxdepth: 0
    :caption: Troubleshooting:
    
    troubleshooting/*
 
 .. toctree::
    :glob:
+   :maxdepth: 0
    :caption: Support:
    
    support/*
