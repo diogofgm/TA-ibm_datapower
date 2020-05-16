@@ -12,9 +12,8 @@ IBM DataPower Add-on for Splunk
 
    overview/about
    overview/releasenotes
-   overview/changelog
    overview/requirements
-   overview/*
+   overview/installationoverview
 
 .. toctree::
    :glob:
