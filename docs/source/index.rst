@@ -10,6 +10,7 @@ IBM DataPower Add-on for Splunk
    :maxdepth: 1
    :caption: Contents:
    
+   overview/*
    introduction
    requirements
    installation
