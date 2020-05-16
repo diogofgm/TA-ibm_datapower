@@ -1,17 +1,30 @@
-=============
-Release Notes
-=============
+=====================================================
+Release notes for the IBM DataPower Add-on for Splunk
+=====================================================
 
-v0.1.2 -
---------
-- Improved field extractions on several sourcetypes
-- Improved Splunk CIM compliance for change, web and authentication domains
+About this release
+------------------
+
+Version 1.0.0 of the IBM DataPower Add-on for Splunk is compatible with the following software, CIM versions, and platforms.
+
+.. csv-table:: Table Title
+   :file: resources/csv/releasenotes.csv
+   :widths: 30, 70
+
+New features
+------------
+Version 1.0.0 of the IBM DataPower Add-on for Splunk contains the following new features.
 
 
-v0.1.1 - December 2019
-----------------------
-- Fixes to sourcetype remaning when a datapower domain is present in the log
+Fixed issues
+------------
+Version 1.0.0 of the IBM DataPower Add-on for Splunk contains the following fixed issues.
 
-v0.1.0 - August 2019
---------------------
-- Public release to Splunkbase
+Date resolved	Issue number	Description
+
+
+Known issues
+------------
+Version 1.0.0 of the IBM DataPower Add-on for Splunk has the following known issues.
+
+Date filed	Issue number	Description
