@@ -1,0 +1,4 @@
+"Distributed deployment feature","Supported","Comments"
+"Search Head Clusters","Yes","You can install this add-on on a search head cluster for all search-time functionality."
+"Indexer Clusters","Yes",""
+"Deployment Server","Yes","Supported for deploying via Deployment server"

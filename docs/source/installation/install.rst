@@ -20,51 +20,19 @@ Unless otherwise noted, all supported add-ons can be safely installed to all tie
 
 This table provides a reference for installing this specific add-on to a distributed deployment of Splunk Enterprise. 
 
-.. list-table::
+.. csv-table::
    :header-rows: 1
-   
-   * - Splunk platform component
-     - Supported
-     - Required
-     - Comments
-   * - Search Heads
-     - Yes
-     - Yes
-     - Install this add-on to all search heads.
-   * - Indexers
-     - Yes
-     - Optional
-     - Required for the parsing operations (sourcetype renaming) if the data is not coming from a heavy forwarder.
-   * - Heavy Forwarders
-     - Yes
-     - Yes
-     - Required for the parsing operations (sourcetype renaming).
-   * - Universal Forwarders
-     - No
-     - No
-     - This add-on requires heavy forwarders.
+   :file: csv/install.csv
 
 
 Distributed deployment compatibility
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This table provides a quick reference for the compatibility of this add-on with Splunk distributed deployment features.
 
-.. list-table::
+.. csv-table::
    :header-rows: 1
-   
-   * - Distributed deployment feature
-     - Supported
-     - Comments
-   * - Search Head Clusters
-     - Yes
-     - You can install this add-on on a search head cluster for all search-time functionality.
-   * - Indexer Clusters
-     - Yes
-     - 
-   * - Deployment Server
-     - Yes
-     - Supported for deploying via Deployment server
-     
+   :file: csv/compatibility.csv
+
 
 Installation walkthroughs
 -------------------------

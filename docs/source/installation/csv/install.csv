@@ -1,0 +1,5 @@
+"Splunk platform component","Supported","Required","Comments"
+"Search Heads","Yes","Yes","Install this add-on to all search heads."
+"Indexers","Yes","Optional","Required for the parsing operations (sourcetype renaming) if the data is not coming from a heavy forwarder."
+"Heavy Forwarders","Yes","Yes","Required for the parsing operations (sourcetype renaming)."
+"Universal Forwarders","No","No","This add-on requires heavy forwarders."
