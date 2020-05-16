@@ -11,6 +11,10 @@ IBM DataPower Add-on for Splunk
    :maxdepth: 1
    :caption: Oveview:
 
+   overview/about
+   overview/releasenotes
+   overview/changelog
+   overview/requirements
    overview/*
 
 .. toctree::
