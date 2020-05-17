@@ -19,7 +19,7 @@
     "classification": {
       "intendedAudience": null, 
       "categories": [], 
-      "developmentStatus": null
+      "developmentStatus": "Production/Stable"
     }, 
     "commonInformationModels": null, 
     "license": {
@@ -42,10 +42,11 @@
   "tasks": null, 
   "inputGroups": null, 
   "incompatibleApps": null, 
-  "platformRequirements": null, 
+  "platformRequirements": "Enterprise", 
   "supportedDeployments": [
     "_standalone", 
-    "_distributed"
+    "_distributed",
+    "_search_head_clustering"
   ], 
   "targetWorkloads": null
 }
