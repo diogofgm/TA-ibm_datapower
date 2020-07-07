@@ -5,14 +5,18 @@
 - Splunk 7.0 or newer
 
 ## Installation
+### Installation on Splunk Enterprise
 Install the add-on on: 
 Search Heads - The add-on contains search time extractions 
 Indexers - Needed for index time operations in case the syslog flow is targetting this instances
 Heavy Forwaders - Needed for index time operations in case the syslog flow is targetting this instances
 
+### Installation on Splunk Cloud
+This app is packaged using Splunk app package toolkit 1.0, which won't allow self-service app install (SSAI) in Splunk 7.1 and below. For those versions of Splunk, Cloud Support needs to unpack the app, remove its app.manifest, and repackage the app using Splunk app package toolkit 0.9, and then install.
+
 ## Configuration
 ### Splunk
-- Configure a new index (e.g. storage) for the new logs
+- Configure a new index (e.g. waf) for the new logs
 
 #### Receiving syslogs on Splunk
 NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
