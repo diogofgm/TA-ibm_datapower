@@ -1,8 +1,8 @@
-# IBM DataPower Add-on for Splunk 
+# IBM DataPower® Add-on for Splunk 
 
 ## System requirements
-- IBM DataPower 7.5 or newer 
-- Splunk 7.0 or newer
+- IBM DataPower® 7.5 or newer 
+- Splunk® 7.0 or newer
 
 ## Installation
 ### Installation on Splunk Enterprise
