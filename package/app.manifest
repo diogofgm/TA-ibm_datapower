@@ -17,15 +17,18 @@
     "releaseDate": null,
     "description": "IBM DataPower Add-on for Splunk",
     "classification": {
-      "intendedAudience": null,
-      "categories": [],
+      "intendedAudience": "IT",
+      "categories": [
+        "Security, Fraud & Compliance",
+        "IT Operations"
+      ],
       "developmentStatus": "Production/Stable"
     },
     "commonInformationModels": null,
     "license": {
-      "name": null,
-      "text": null,
-      "uri": null
+      "name": "Apache License, Version 2.0",
+      "text": "LICENSE",
+      "uri": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     "privacyPolicy": {
       "name": null,
@@ -33,9 +36,9 @@
       "uri": null
     },
     "releaseNotes": {
-      "name": null,
-      "text": null,
-      "uri": null
+      "name": "releaseNotes",
+      "text": "releaseNotes",
+      "uri": "https://diogofgm.github.io/TA-ibm_datapower/releasenotes.html"
     }
   },
   "dependencies": null,
