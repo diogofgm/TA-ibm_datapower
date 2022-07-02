@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 ---
+# IBM DataPower Add-on for Splunk
 
 The IBM DataPower Add-on for Splunk brings field extractions from IBM DataPower syslog data to Splunk platform. This add-on does not collect any data.
 
