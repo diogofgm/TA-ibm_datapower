@@ -42,7 +42,7 @@
   "tasks": null,
   "inputGroups": null,
   "incompatibleApps": null,
-  "platformRequirements": "Enterprise",
+  "platformRequirements": null,
   "supportedDeployments": [
     "_standalone",
     "_distributed",
