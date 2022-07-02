@@ -36,8 +36,8 @@
       "uri": null
     },
     "releaseNotes": {
-      "name": "releaseNotes",
-      "text": "releaseNotes",
+      "name": "Release Notes",
+      "text": null,
       "uri": "https://diogofgm.github.io/TA-ibm_datapower/releasenotes.html"
     }
   },
