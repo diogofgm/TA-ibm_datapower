@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Release Notes
 
-## v0.1.2 -
+## v1.0.0 - May 2024
 
 - Improved field extractions on several sourcetypes
 - Improved Splunk CIM compliance for change, web and authentication domains
